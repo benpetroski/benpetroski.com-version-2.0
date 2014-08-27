@@ -287,3 +287,9 @@ body {
     outline:none!important;
 	text-decoration:none !important;
 }
+
+div.container{
+left:0;
+width:auto; /* or 100% */
+margin-left:0;  
+}  
