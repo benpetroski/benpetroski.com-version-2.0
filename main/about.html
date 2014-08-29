@@ -38,74 +38,79 @@
 
 			<div class="cover-container">
 
-				<div class="masthead clearfix">
-					<div class="inner">
-						<h3 class="masthead-brand"><a href="#">BenPetroski.com</a></h3>
-						<ul class="nav masthead-nav">
-							<li class="active"><a href="about.html">About</a></li>
-							<li><a href="..\blog\index.php">Blog</a></li>
-							<li><a href="" data-toggle="modal" data-target="#myModal">Contact</a></li>
-						</ul>
+				<div class="mastheadBox clearfix">
+				</div>
+					<div class="masthead clearfix">
+						<div class="inner">
+							<h3 class="masthead-brand">
+								<a href="#">BenPetroski.com</a>
+							</h3>
+							<ul class="nav masthead-nav">
+								<li class="active"><a href="about.html">About</a></li>
+								<li><a href="..\blog\index.php">Blog</a></li>
+								<li><a href="" data-toggle="modal" data-target="#myModal">Contact</a></li>
+							</ul>
 
 
 
-						<!-- Modal -->
-						<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
-							aria-labelledby="myModalLabel" aria-hidden="true">
-							<div class="modal-dialog">
-								<div class="modal-content">
+							<!-- Modal -->
+							<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+								aria-labelledby="myModalLabel" aria-hidden="true">
+								<div class="modal-dialog">
+									<div class="modal-content">
 
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal">
-											<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
-										</button>
-										<h4 class="modal-title" id="myModalLabel">Job offers,
-											comments, or questions? Email me!</h4>
-									</div>
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal">
+												<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+											</button>
+											<h4 class="modal-title" id="myModalLabel">Job offers,
+												comments, or questions? Email me!</h4>
+										</div>
 
-									<div class="modal-body">
-										<div class="container">
-											<div class="col-lg-12 contact-form">
-												<form id="contact" method="post" class="form" role="form">
-													<div class="row">
-														<div class="form-group">
-															<input class="form-control" id="name" name="name"
-																placeholder="Name" type="text" required autofocus />
+										<div class="modal-body">
+											<div class="container">
+												<div class="col-lg-12 contact-form">
+													<form id="contact" method="post" class="form" role="form">
+														<div class="row">
+															<div class="form-group">
+																<input class="form-control" id="name" name="name"
+																	placeholder="Name" type="text" required autofocus />
+															</div>
 														</div>
-													</div>
-													<div class="row">
-														<div class="form-group">
-															<input class="form-control" id="email" name="email"
-																placeholder="Email" type="email" required />
+														<div class="row">
+															<div class="form-group">
+																<input class="form-control" id="email" name="email"
+																	placeholder="Email" type="email" required />
+															</div>
 														</div>
-													</div>
-													<div class="row">
-														<div class="form-group">
-															<textarea class="form-control" id="message"
-																name="message" placeholder="Message" rows="5"></textarea>
+														<div class="row">
+															<div class="form-group">
+																<textarea class="form-control" id="message"
+																	name="message" placeholder="Message" rows="5"></textarea>
+															</div>
 														</div>
-													</div>
-													<div class="row">
-														<div class="form-group">
-															<button class="btn btn-primary pull-right" type="submit">Submit</button>
+														<div class="row">
+															<div class="form-group">
+																<button class="btn btn-primary pull-right" type="submit">Submit</button>
+															</div>
 														</div>
-													</div>
-												</form>
+													</form>
+												</div>
 											</div>
 										</div>
-									</div>
 
-									<div class="modal-footer">
-										<p>Thanks!</p>
-									</div>
+										<div class="modal-footer">
+											<p>Thanks!</p>
+										</div>
 
+									</div>
 								</div>
 							</div>
+
+
+
+
 						</div>
-
-
-
-
 					</div>
 				</div>
 				<div class="inner cover">
@@ -118,13 +123,30 @@
 				</div>
 
 				<div class="mastfoot">
-					<div class="inner">
-						<p></p>
+					<div class="inner sharelinks">
+						<p>Copyright 2014 Ben Petroski</p>
+						<script type="text/javascript">
+							var sOffset = $(".sharelinks").offset().top;
+							var shareheight = $(".sharelinks").height() + 43;
+							$(window).scroll(function() {
+							    var scrollYpos = $(document).scrollTop();
+							    if (scrollYpos > sOffset - shareheight) {
+							        $(".sharelinks").css({
+							            'top': '61px',
+							            'position': 'fixed'
+							        });
+							    } else {
+							        $(".sharelinks").css({
+							            'top': 'auto',
+							            'position': 'relative'
+							        });
+							    }
+							});
+						</script>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 
 
 	<!-- About Section -->
@@ -333,7 +355,7 @@
 				<p class="pull-right">
 					<a href="#">Back to top</a>
 				</p>
-				<p> 
+				<p>
 					&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot;
 					<a href="#">Terms</a>
 				</p>

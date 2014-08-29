@@ -257,11 +257,12 @@ body {
  */
 @media ( min-width : 768px) {
 	/* Pull out the header and footer */
-	.masthead {
+	.mastheadBox, .masthead {
 		/* z-index is OVER 9000!!! */
+		background-color: #3b3b3b;
 		z-index: 9001;
 		position: fixed;
-		top: 0;
+		top: -20px;
 	}
 	.mastfoot {
 		position: fixed;
@@ -279,8 +280,18 @@ body {
 }
 
 @media ( min-width : 992px) {
-	.masthead,.mastfoot,.cover-container {
+	.masthead,.cover-container {
 		width: 700px;
+	}
+	.mastfoot {
+		width: 100%;
+	}
+	.mastheadBox {
+		background-color: #3b3b3b;
+		min-height: 56px;
+		width: 100%;
+		top: 0px;
+		left: 0px;
 	}
 }
 
