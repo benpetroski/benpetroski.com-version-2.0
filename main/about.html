@@ -12,24 +12,20 @@
 
 <!-- Bootstrap core CSS -->
 <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
 <!-- Custom styles for this template -->
 <link href="about.css" rel="stylesheet">
-
-<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 <script
 	src="http://getbootstrap.com/assets/js/ie-emulation-modes-warning.js"></script>
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script
 	src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
-<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
 <script type="text/javascript" src="../bootstrap/js/konami.js"></script>
-<script type="text/javascript"> konami = new Konami("http://www.google.com");</script>
+<script type="text/javascript">
+	konami = new Konami(function() {
+		$(document).ready(function() {
+			$("#ee").modal();
+		});
+	});
+</script>
 </head>
 
 <body>
@@ -51,73 +47,15 @@
 							<li><a href="" data-toggle="modal" data-target="#myModal">Contact</a></li>
 						</ul>
 
-
-
-						<!-- Modal -->
-						<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
-							aria-labelledby="myModalLabel" aria-hidden="true">
-							<div class="modal-dialog">
-								<div class="modal-content">
-
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal">
-											<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
-										</button>
-										<h4 class="modal-title" id="myModalLabel">Job offers,
-											comments, or questions? Email me!</h4>
-									</div>
-
-									<div class="modal-body">
-										<div class="container">
-											<div class="col-lg-12 contact-form">
-												<form id="contact" method="post" class="form" role="form">
-													<div class="row">
-														<div class="form-group">
-															<input class="form-control" id="name" name="name"
-																placeholder="Name" type="text" required autofocus />
-														</div>
-													</div>
-													<div class="row">
-														<div class="form-group">
-															<input class="form-control" id="email" name="email"
-																placeholder="Email" type="email" required />
-														</div>
-													</div>
-													<div class="row">
-														<div class="form-group">
-															<textarea class="form-control" id="message"
-																name="message" placeholder="Message" rows="5"></textarea>
-														</div>
-													</div>
-													<div class="row">
-														<div class="form-group">
-															<button class="btn btn-primary pull-right" type="submit">Submit</button>
-														</div>
-													</div>
-												</form>
-											</div>
-										</div>
-									</div>
-
-									<div class="modal-footer">
-										<p>Thanks!</p>
-									</div>
-
-								</div>
-							</div>
-						</div>
-
-
-
-
 					</div>
 				</div>
 			</div>
+
 			<div class="inner cover">
 				<h1 class="cover-heading">Hi. I'm Ben.</h1>
 				<p class="lead">I like startups and tech.</p>
 				<p class="lead">
-					<a href="#about" class="btn btn-lg btn-default page-scroll">Learn
+					<a href="#about" class="btn btn-lg btn-success page-scroll">Learn
 						more</a>
 				</p>
 			</div>
@@ -346,13 +284,111 @@
 		</div>
 		<!-- /.container -->
 	</section>
+	
+	<!-- Modal -->
+	<div class="modal fade" id="ee" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
 
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">
+						<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+					</button>
+					<h4 class="modal-title" id="myModalLabel">Menu</h4>
+				</div>
 
+				<div class="modal-body">
+					<div class="container">
+						<div class="col-lg-12 contact-form">
+							<form id="contact" method="post" class="form" role="form">
+								<div class="row">
+									<div class="form-group">
+										<a class="btn btn-primary" href="#">Button 1</a>
+									</div>
+								</div>
+								<div class="row">
+									<div class="form-group">
+										<a class="btn btn-primary" href="#">Button 2</a>
+									</div>
+								</div>
+								<div class="row">
+									<div class="form-group">
+										<a class="btn btn-primary" href="#">Button 3</a>
+									</div>
+								</div>
+								<div class="row">
+									<div class="form-group">
+										<button class="btn btn-primary pull-right" data-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
 
+				<div class="modal-footer">
+				</div>
 
+			</div>
+		</div>
+	</div>
+	
+	
 
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+		aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
 
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">
+						<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+					</button>
+					<h4 class="modal-title" id="myModalLabel">Job offers,
+						comments, or questions? Email me!</h4>
+				</div>
 
+				<div class="modal-body">
+					<div class="container">
+						<div class="col-lg-12 contact-form">
+							<form id="contact" method="post" class="form" role="form">
+								<div class="row">
+									<div class="form-group">
+										<input class="form-control" id="name" name="name"
+											placeholder="Name" type="text" required autofocus />
+									</div>
+								</div>
+								<div class="row">
+									<div class="form-group">
+										<input class="form-control" id="email" name="email"
+											placeholder="Email" type="email" required />
+									</div>
+								</div>
+								<div class="row">
+									<div class="form-group">
+										<textarea class="form-control" id="message" name="message"
+											placeholder="Message" rows="5"></textarea>
+									</div>
+								</div>
+								<div class="row">
+									<div class="form-group">
+										<button class="btn btn-primary pull-right" type="submit">Submit</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+
+				<div class="modal-footer">
+					<p>Thanks!</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
 
 
 	<!-- Bootstrap core JavaScript

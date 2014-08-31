@@ -134,12 +134,12 @@ body {
  */
 
 /* Links */
-a,a:focus,a:hover {
+a, a:focus, a:hover {
 	color: #fff;
 }
 
 /* Custom default button */
-.btn-default,.btn-default:hover,.btn-default:focus {
+.btn-default, .btn-default:hover, .btn-default:focus {
 	color: #333;
 	text-shadow: none; /* Prevent inheritence from `body` */
 	background-color: #fff;
@@ -149,7 +149,7 @@ a,a:focus,a:hover {
 /*
  * Base structure
  */
-html,body {
+html, body {
 	height: 100%;
 	background-color: #333;
 }
@@ -211,13 +211,13 @@ body {
 	border-bottom: 2px solid transparent;
 }
 
-.masthead-nav>li>a:hover,.masthead-nav>li>a:focus {
+.masthead-nav>li>a:hover, .masthead-nav>li>a:focus {
 	background-color: transparent;
 	border-bottom-color: #a9a9a9;
 	border-bottom-color: rgba(255, 255, 255, .25);
 }
 
-.masthead-nav>.active>a,.masthead-nav>.active>a:hover,.masthead-nav>.active>a:focus
+.masthead-nav>.active>a, .masthead-nav>.active>a:hover, .masthead-nav>.active>a:focus
 	{
 	color: #fff;
 	border-bottom-color: #fff;
@@ -273,14 +273,22 @@ body {
 		vertical-align: middle;
 	}
 	/* Handle the widths */
-	.masthead,.mastfoot,.cover-container {
+	.masthead, .mastfoot, .cover-container {
 		width: 100%;
 		/* Must be percentage or pixels for horizontal alignment */
+	}
+	.modal-dialog {
+		position: absolute;
+		left: 50%; 
+		margin-left: -312px;
+		height: 500px;
+		top: 50%;
+		margin-top: -250px;
 	}
 }
 
 @media ( min-width : 992px) {
-	.masthead,.cover-container {
+	.masthead, .cover-container {
 		width: 700px;
 	}
 	.mastfoot {
@@ -292,10 +300,18 @@ body {
 		width: 100%;
 		top: 0px;
 		left: 0px;
+	}	
+	.modal-dialog {
+		position: absolute;
+		left: 50%;
+		margin-left: -312px;
+		height: 500px;
+		top: 50%;
+		margin-top: -250px;
 	}
 }
 
-.modal-body,a:focus {
+.modal-body, a:focus {
 	outline: none !important;
 	text-decoration: none !important;
 }
