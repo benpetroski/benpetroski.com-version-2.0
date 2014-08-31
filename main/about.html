@@ -284,7 +284,7 @@
 		</div>
 		<!-- /.container -->
 	</section>
-	
+
 	<!-- Modal -->
 	<div class="modal fade" id="ee" tabindex="-1" role="dialog"
 		aria-labelledby="myModalLabel" aria-hidden="true">
@@ -304,22 +304,23 @@
 							<form id="contact" method="post" class="form" role="form">
 								<div class="row">
 									<div class="form-group">
-										<a class="btn btn-primary" href="#">Button 1</a>
+										<a class="btn btn-primary" href="#">Button 1</a> <a
+											class="btn btn-primary" href="#">Button 2</a> <a
+											class="btn btn-primary" href="#">Button 3</a>
 									</div>
 								</div>
 								<div class="row">
 									<div class="form-group">
-										<a class="btn btn-primary" href="#">Button 2</a>
+										<a class="btn btn-primary" href="#">Button 4</a> <a
+											class="btn btn-primary" href="#">Button 5</a> <a
+											class="btn btn-primary" href="#">Button 6</a>
 									</div>
 								</div>
 								<div class="row">
 									<div class="form-group">
-										<a class="btn btn-primary" href="#">Button 3</a>
-									</div>
-								</div>
-								<div class="row">
-									<div class="form-group">
-										<button class="btn btn-primary pull-right" data-dismiss="modal">Close</button>
+										<a class="btn btn-primary" href="#">Button 7</a> <a
+											class="btn btn-primary" href="#">Button 8</a> <a
+											class="btn btn-primary" href="#">Button 9</a>
 									</div>
 								</div>
 							</form>
@@ -328,13 +329,16 @@
 				</div>
 
 				<div class="modal-footer">
+					<div class="form-group">
+						<button class="btn btn-primary pull-right" data-dismiss="modal">Close</button>
+					</div>
 				</div>
 
 			</div>
 		</div>
 	</div>
-	
-	
+
+
 
 	<!-- Modal -->
 	<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
@@ -350,10 +354,11 @@
 						comments, or questions? Email me!</h4>
 				</div>
 
-				<div class="modal-body">
-					<div class="container">
-						<div class="col-lg-12 contact-form">
-							<form id="contact" method="post" class="form" role="form">
+				<form action="takeform.php" id="contact" class="form" role="form" method="post"
+					action="sendEmail.php">
+					<div class="modal-body">
+						<div class="container">
+							<div class="col-lg-12 contact-form">
 								<div class="row">
 									<div class="form-group">
 										<input class="form-control" id="name" name="name"
@@ -372,19 +377,16 @@
 											placeholder="Message" rows="5"></textarea>
 									</div>
 								</div>
-								<div class="row">
-									<div class="form-group">
-										<button class="btn btn-primary pull-right" type="submit">Submit</button>
-									</div>
-								</div>
-							</form>
+							</div>
 						</div>
 					</div>
-				</div>
 
-				<div class="modal-footer">
-					<p>Thanks!</p>
-				</div>
+					<div class="modal-footer">
+						<div class="form-group">
+							<button class="btn btn-primary pull-right" type="submit">Submit</button>
+						</div>
+					</div>
+				</form>
 
 			</div>
 		</div>
