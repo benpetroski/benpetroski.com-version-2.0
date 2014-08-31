@@ -25,21 +25,26 @@ var Konami = function (callback) {
 			}
 		},
 		input: "",
-		charInput: "",
 		pattern: "QWERTY", // Needs to be in caps if it's a word.
 		load: function (link) {
 			this.addEvent(document, "keydown", function (e, ref_obj) {
 				if (ref_obj) konami = ref_obj; // IE
-				konami.input += e ? e.keyCode : event.keyCode;
-				konami.charInput += String.fromCharCode(e.keyCode)
-				if (konami.charInput == konami.pattern) {
+				konami.input += e ? String.fromCharCode(e.keyCode) : String.fromCharCode(event.keyCode);
+				if (konami.input == konami.pattern) {
 					konami.code(link);
 					konami.input = "";
 					e.preventDefault();
 					return false;
 				}
-				if (konami.input.length > konami.pattern.length)
-					konami.input = konami.input.substr((konami.input.length - konami.pattern.length));				
+				if (konami.input.length > konami.pattern.length) {
+					konami.input = konami.input.substr((konami.input.length - konami.pattern.length));
+					if (konami.input == konami.pattern) {
+						konami.code(link);
+						konami.input = "";
+						e.preventDefault();
+						return false;
+					}
+				}
 			}, this);
 			this.iphone.load(link);
 		},
