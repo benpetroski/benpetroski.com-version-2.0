@@ -44,9 +44,9 @@
 						<ul class="nav masthead-nav">
 							<li class="active"><a href="about.html">About</a></li>
 							<li><a href="..\blog\index.php">Blog</a></li>
-							<li><a href="" data-toggle="modal" data-target="#myModal">Contact</a></li>
+							<li><a href="" data-toggle="modal"
+								data-target="#contactModal">Contact</a></li>
 						</ul>
-
 					</div>
 				</div>
 			</div>
@@ -341,7 +341,7 @@
 
 
 	<!-- Modal -->
-	<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+	<div class="modal fade" id="contactModal" tabindex="-1" role="dialog"
 		aria-labelledby="myModalLabel" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
@@ -354,8 +354,8 @@
 						comments, or questions? Email me!</h4>
 				</div>
 
-				<form action="takeform.php" id="contact" class="form" role="form" method="post"
-					action="sendEmail.php">
+				<form action="takeform.php" id="contact" class="form" role="form"
+					method="post" action="sendEmail.php">
 					<div class="modal-body">
 						<div class="container">
 							<div class="col-lg-12 contact-form">
@@ -382,7 +382,11 @@
 					</div>
 
 					<div class="modal-footer">
-						<div class="form-group">
+						<div class="form-group">		
+							<a class="pull-left" href="https://twitter.com/62656e"><img src="images/twitterIcon.png" height="32px" width="32px"></a>
+							<a class="pull-left" href="https://linkedin.com/in/benpetroski"><img src="images/linkedinIcon.png" height="32px" width="32px"></a>
+							<a class="pull-left" href="https://facebook.com/benjamin.petroski"><img src="images/facebookIcon.png" height="32px" width="32px"></a>							
+							<a class="pull-left" href="mailto:ben@benpetroski.com?Subject=Email%20to%20Ben:%20benpetroski.com" target="_top"><img src="images/gmailIcon.png" height="32px" width="32px"></a>
 							<button class="btn btn-primary pull-right" type="submit">Submit</button>
 						</div>
 					</div>

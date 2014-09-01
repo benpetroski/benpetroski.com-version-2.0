@@ -214,7 +214,6 @@ body {
 .masthead-nav>li>a:hover, .masthead-nav>li>a:focus {
 	background-color: transparent;
 	border-bottom-color: #a9a9a9;
-	border-bottom-color: rgba(255, 255, 255, .25);
 }
 
 .masthead-nav>.active>a, .masthead-nav>.active>a:hover, .masthead-nav>.active>a:focus
@@ -281,7 +280,6 @@ body {
 		position: absolute;
 		left: 50%; 
 		margin-left: -312px;
-		height: 500px;
 		top: 50%;
 		margin-top: -250px;
 	}
@@ -305,7 +303,6 @@ body {
 		position: absolute;
 		left: 50%;
 		margin-left: -312px;
-		height: 500px;
 		top: 50%;
 		margin-top: -250px;
 	}
