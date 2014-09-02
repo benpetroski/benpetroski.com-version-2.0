@@ -262,7 +262,7 @@ body {
 	/* Pull out the header and footer */
 	.mastheadBox, .masthead {
 		/* z-index is OVER 9000!!! */
-		background-color: #3b3b3b;
+		background-color: #222;
 		z-index: 9001;
 		position: fixed;
 		top: -20px;
@@ -297,7 +297,7 @@ body {
 		width: 100%;
 	}
 	.mastheadBox {
-		background-color: #3b3b3b;
+		background-color: #222;
 		min-height: 56px;
 		width: 100%;
 		top: 0px;

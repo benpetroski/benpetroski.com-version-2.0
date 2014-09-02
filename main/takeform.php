@@ -7,7 +7,7 @@ $subject = 'Message from ' . $name . ' through BenPetroski.com';
 
 $url = 'https://api.sendgrid.com/';
 $user = 'benpetroski';
-$pass = 'AS45gj85t';
+$pass = 'passforsendgrid';
 
 $params = array(
     'api_user'  => $user,
