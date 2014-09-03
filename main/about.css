@@ -323,9 +323,6 @@ div.container {
 	margin-left: 0;
 }
 
-.modal-content {
-  background-color: #333;
-}
-.modal-body {
-  background-color: #333;
+.modal-content, .modal-body {
+  background-color: #111;
 }
