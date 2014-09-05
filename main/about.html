@@ -63,8 +63,12 @@
 			});
 
 			// to prevent refreshing the whole page page
+			$(':input', '#contactForm').not(':button, :submit, :reset, :hidden').val('').removeAttr('checked').removeAttr('selected');
 			return false;
 
+		});
+		$('#cancel').click(function() {
+			$(':input', '#contactForm').not(':button, :submit, :reset, :hidden').val('').removeAttr('checked').removeAttr('selected');
 		});
 	});
 </script>
