@@ -324,5 +324,14 @@ div.container {
 }
 
 .modal-content, .modal-body {
-  background-color: #111;
+	background-color: #111;
+}
+#map-canvas {
+	min-height: 500px;
+	margin: 0px;
+	padding: 0px
+}
+
+footer {
+    padding: 100px 0;
 }

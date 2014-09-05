@@ -47,10 +47,10 @@
 			}).done(function(data) {
 
 				console.log(data);
-				
+
 				data = data.replace(/\*/g, '');
-				data = data.replace(/\//g, '');				
-				
+				data = data.replace(/\//g, '');
+
 				console.log(data);
 				// show the response
 				$('#response').text(data);
@@ -68,6 +68,55 @@
 		});
 	});
 </script>
+
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+<script>
+	var map;
+	var center = new google.maps.LatLng(37.584404, -122.252438);
+	var stanford = new google.maps.LatLng(37.426789, -122.159416);
+	var MY_MAPTYPE_ID = 'custom_style';
+
+	function initialize() {
+
+		var featureOpts = [ {
+			stylers : [{
+				gamma : 0.5
+			}, {
+				saturation : -100
+			}, {
+				lightness : -20
+			}]
+		}];
+
+		var mapOptions = {
+			zoom : 10,
+			center : center,
+			mapTypeControlOptions : {
+				mapTypeIds : [ google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID ]
+			},
+			mapTypeId : MY_MAPTYPE_ID
+		};
+
+		map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+		var styledMapOptions = {
+			name : 'Custom Style'
+		};
+
+		var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);
+
+		map.mapTypes.set(MY_MAPTYPE_ID, customMapType);
+		
+		var marker = new google.maps.Marker({
+		      position: stanford,
+		      map: map,
+		      title: 'Hello World!'
+		  });
+	}
+
+	google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
 </head>
 
 <body>
@@ -312,21 +361,44 @@
 
 			<!-- /END THE FEATURETTES -->
 
-
-			<!-- FOOTER -->
-			<footer>
-				<p class="pull-right">
-					<a href="#">Back to top</a>
-				</p>
-				<p>
-					&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot;
-					<a href="#">Terms</a>
-				</p>
-			</footer>
-
 		</div>
 		<!-- /.container -->
 	</section>
+
+	<div id="map-canvas"></div>
+
+	<!-- FOOTER -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-10 col-lg-offset-1 text-center">
+					<h4>
+						<strong>Start Bootstrap</strong>
+					</h4>
+					<p>
+						3481 Melrose Place<br>Beverly Hills, CA 90210
+					</p>
+					<ul class="list-unstyled">
+						<li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
+						<li><i class="fa fa-envelope-o fa-fw"></i> <a
+							href="mailto:name@example.com">name@example.com</a></li>
+					</ul>
+					<br>
+					<ul class="list-inline">
+						<li><a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+						</li>
+						<li><a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+						</li>
+						<li><a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+						</li>
+					</ul>
+					<hr class="small">
+					<p class="text-muted">Copyright &copy; Your Website 2014</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
 
 	<!-- Modal -->
 	<div class="modal fade" id="ee" tabindex="-1" role="dialog"
@@ -419,13 +491,16 @@
 					<div class="modal-footer">
 						<div class="form-group">
 							<a class="pull-left" href="https://twitter.com/62656e"><img
-								src="images/twitterIconDark.png" height="35px" width="35px"></a> 
+								src="images/twitterIconDark.png" height="35px" width="35px"></a>
 							<a class="pull-left" href="https://linkedin.com/in/benpetroski"><img
 								src="images/linkedinIconDark.png" height="35px" width="35px"></a>
-							<a class="pull-left" href="https://facebook.com/benjamin.petroski"><img
+							<a class="pull-left"
+								href="https://facebook.com/benjamin.petroski"><img
 								src="images/facebookIconDark.png" height="35px" width="35px"></a>
-							<a class="pull-left" href="mailto:ben@benpetroski.com?Subject=Email%20to%20Ben:%20benpetroski.com"
-								target="_top"><img src="images/gmailIconDark.png" height="35px" width="35px"></a>
+							<a class="pull-left"
+								href="mailto:ben@benpetroski.com?Subject=Email%20to%20Ben:%20benpetroski.com"
+								target="_top"><img src="images/gmailIconDark.png"
+								height="35px" width="35px"></a>
 							<button class="btn btn-danger pull-right" id="cancel"
 								type="button" data-dismiss="modal" name="cancel"
 								style="margin-right: 5px;">Close</button>
