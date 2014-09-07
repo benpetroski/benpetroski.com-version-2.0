@@ -139,6 +139,8 @@
 </head>
 
 <body>
+	<a href="#" class="back-to-top" style="display: none; z-index: 9999;">Back to Top</a>
+
 	<div class="site-wrapper">
 
 		<div class="site-wrapper-inner">
@@ -529,6 +531,36 @@
 	<!-- Bootstrap core JavaScript
     ================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
+	<script>
+		jQuery(document).ready(function() {
+			var offset = 220;
+			var duration = 500;
+			jQuery(window).scroll(function() {
+				if (jQuery(this).scrollTop() > offset) {
+					jQuery('.back-to-top').fadeIn(duration);
+				} else {
+					jQuery('.back-to-top').fadeOut(duration);
+				}
+			});
+
+			jQuery('.back-to-top').click(function(event) {
+				event.preventDefault();
+				jQuery('html, body').animate({
+					scrollTop : 0
+				}, duration);
+				return false;
+			})
+		});
+		//Make button appear only when scrolled below 100px
+		$(window).scroll(function(){
+		    if ($(this).scrollTop() > 720) {
+		        $('.back-to-top').show();
+		    }
+		    if ($(this).scrollTop() < 720) {
+		        $('.back-to-top').hide();
+		    }
+		});
+	</script>
 	<script src="../bootstrap/js/jquery.min.js"></script>
 	<script src="../bootstrap/js/bootstrap.min.js"></script>
 	<script src="../bootstrap/js/jquery.easing.min.js"></script>
