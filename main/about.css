@@ -275,11 +275,12 @@ body {
 	.mastheadBox, .masthead {
 		/* z-index is OVER 9000!!! */
 		background-color: #111;
-		z-index: 9001;
+		z-index: 101;
 		position: fixed;
 		top: -20px;
 	}
 	.mastfoot {
+		z-index: 101;
 		position: fixed;
 		bottom: 0;
 	}
@@ -385,7 +386,7 @@ footer {
 }
 
 .back-to-top {	
-    position: fixed;
+	display: none;
     bottom: 2em;
     text-decoration: none;
     color: #000000;
@@ -395,5 +396,5 @@ footer {
 }
 
 .back-to-top:hover {    
-    background-color: rgba(135, 135, 135, 0.50);
+    background-color: rgba(135, 135, 135, 0.20);
 }
