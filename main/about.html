@@ -400,10 +400,13 @@
 
 					<div id="text-3" class="widget widget_text">
 
-						<div class="textwidget">Curabitur pellentesque nisl risus,
-							sed bibendum velit blandit non. Etiam volutpat laoreet nibh, vel
-							interdum ipsum. Fusce sagittis nisl quam, eu varius nibh gravida
-							at. Fusce tempus urna in sem adipiscing pulvinar.</div>
+						<div class="textwidget">An engineer at heart with a passion
+							for innovative products, Ben spends his free time playing sports,
+							tinkering with hardware and software, and trying to understand
+							the universe. He generally sticks to things he's good at, but
+							tries new things on occasion to explore his interests.
+							Additionally, he is constantly listening to music and finding
+							adventures, wherever they may be.</div>
 						<div class="col-lg-10 col-lg-offset-1 text-center">
 							<h4>
 								<strong><a href="#">BenPetroski.com</a></strong>
@@ -441,17 +444,22 @@
 
 				<div class="col-md-4 column">
 					<div id="recent-posts-2" class="widget widget_recent_entries">
-						<h3 class="widget-title">Recent Posts</h3>
+						<h3 class="widget-title">Recent Blog Posts</h3>
+						<ul>
+							<?php
+								$args = array( 'numberposts' => '5' );
+								$recent_posts = wp_get_recent_posts( $args );
+								foreach( $recent_posts as $recent ){
+									echo '<li><a href="' . get_permalink($recent["ID"]) . '" title="Look '.esc_attr($recent["post_title"]).'" >' .   $recent["post_title"].'</a> </li> ';
+								}
+							?>
+						</ul>
+
 						<ul>
 							<li><a
 								href="http://demo.themesholic.com/mito/the-theory-of-revolution/">The
 									Theory of Revolution</a> <span class="post-date">July 1,
 									2014</span></li>
-							<li><a
-								href="http://demo.themesholic.com/mito/goodbye-popcorn-time/">Goodbye
-									Popcorn Time</a> <span class="post-date">July 1, 2014</span></li>
-							<li><a href="http://demo.themesholic.com/mito/first-lesson/">First
-									Lesson</a> <span class="post-date">July 1, 2014</span></li>
 						</ul>
 					</div>
 				</div>
