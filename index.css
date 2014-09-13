@@ -279,17 +279,12 @@ body {
 		position: fixed;
 		top: -20px;
 	}
-	.mastfoot {
-		z-index: 101;
-		position: fixed;
-		bottom: 0;
-	}
 	/* Start the vertical centering */
 	.site-wrapper-inner {
 		vertical-align: middle;
 	}
 	/* Handle the widths */
-	.masthead, .mastfoot, .cover-container {
+	.masthead, .cover-container {
 		width: 100%;
 		/* Must be percentage or pixels for horizontal alignment */
 	}
@@ -306,9 +301,6 @@ body {
 	.masthead, .cover-container {
 		width: 700px;
 	}
-	.mastfoot {
-		width: 100%;
-	}
 	.mastheadBox {
 		background-color: #111;
 		min-height: 56px;
@@ -324,6 +316,13 @@ body {
 		margin-top: -170px;
 	}
 }
+
+.mastfoot {
+		z-index: 101;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
+	}
 
 .modal-body, a:focus {
 	outline: none !important;
