@@ -16,13 +16,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'database_name_here');
+define('DB_NAME', 'wordpress-db');
 
 /** MySQL database username */
-define('DB_USER', 'username_here');
+define('DB_USER', 'wordpress-user');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'password_here');
+define('DB_PASSWORD', 'AS45gj85t');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -42,15 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
-
+define('AUTH_KEY',         'N_gs/%}}HH0zaO([)g:vyQw} SJPd6^j]z:rE,<%+01~1agTk.$CvV}1j?[;W=!d');
+define('SECURE_AUTH_KEY',  '3oB)4G^-x(_+JRQB^ej(|!0:pk7P`B:qs+N!<N2.;7)~I=Ee?`+pe|@cIq_|{6M1');
+define('LOGGED_IN_KEY',    'uo[,q!]j* %mXgu1%o<5d-S3T?vb^rQy.@,A#E%twF#Npqzt{sM-E+z+JCiS=7Q1');
+define('NONCE_KEY',        's*M1eR)D)|*%b;<u]j+9hx+%)yCk0SE47/<?e>x8DmU,s!2+#MzyV-)1D3mGua`D');
+define('AUTH_SALT',        'W5,oTGMQ;Jx|rOg|(*P|g2S_2pp(nx601mQJlL4]f-gaxhU?ye)w9C-U8fNJN@$D');
+define('SECURE_AUTH_SALT', 'K!Ze5GO,lBN2D|1^t~mifPVr%U>~Ym| 4e4bd4ULncZExc1F[@/ erI6k:sSUdA_');
+define('LOGGED_IN_SALT',   '^d1k0u.kT1a^drJIJtX;6P+*_.3[9_NScEenl}yBSM9Dj=EM}wjzk_ sK|,YIRHK');
+define('NONCE_SALT',       '57W)Ys,:`]3m>{5+v~rRi+aN!R{62-_g&@qF-8YqEi@|^`WUYM#cvnL#@2iE2v1v');
 /**#@-*/
 
 /**
@@ -60,16 +59,6 @@ define('NONCE_SALT',       'put your unique phrase here');
  * prefix. Only numbers, letters, and underscores please!
  */
 $table_prefix  = 'wp_';
-
-/**
- * WordPress Localized Language, defaults to English.
- *
- * Change this to localize WordPress. A corresponding MO file for the chosen
- * language must be installed to wp-content/languages. For example, install
- * de_DE.mo to wp-content/languages and set WPLANG to 'de_DE' to enable German
- * language support.
- */
-define('WPLANG', '');
 
 /**
  * For developers: WordPress debugging mode.

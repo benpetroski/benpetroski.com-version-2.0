@@ -1,3 +1,12 @@
+<?php
+    // Include WordPress
+    define('WP_USE_THEMES', false);
+    // Change path below to location of wp-blog-header.php on server
+    require('/var/www/html/blog/wp-blog-header.php');
+    // Change number below to show 1 or more post excerpts
+    query_posts('showposts=3');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -162,7 +171,7 @@
 						</h3>
 						<ul class="nav masthead-nav">
 							<li class="active"><a href="index.html">About</a></li>
-							<li><a href="..\blog\index.php">Blog</a></li>
+							<li><a href="..\blog\">Blog</a></li>
 							<li><a href="" data-toggle="modal"
 								data-target="#contactModal">Contact</a></li>
 						</ul>
@@ -422,20 +431,10 @@
 					<div id="recent-posts-2" class="widget widget_recent_entries">
 						<h3 class="widget-title">Recent Blogs</h3>
 						<ul>
-							<?php
-								$args = array( 'numberposts' => '5' );
-								$recent_posts = wp_get_recent_posts( $args );
-								foreach( $recent_posts as $recent ){
-									echo '<li><a href="' . get_permalink($recent["ID"]) . '" title="Look '.esc_attr($recent["post_title"]).'" >' .   $recent["post_title"].'</a> </li> ';
-								}
-							?>
-						</ul>
-
-						<ul>
-							<li><a
-								href="http://demo.themesholic.com/mito/the-theory-of-revolution/">The
-									Theory of Revolution</a> <span class="post-date">July 1,
-									2014</span></li>
+							<?php while (have_posts()): the_post(); ?>
+							<p><strong><a href="<?php the_permalink(); ?>" title="Read full post"><?php the_title(); ?></a></strong> - <?php the_time('jS F') ?></p>
+							<?php the_excerpt(); ?>
+							<?php endwhile; ?>
 						</ul>
 					</div>
 				</div>
