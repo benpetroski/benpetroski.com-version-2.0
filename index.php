@@ -430,12 +430,10 @@
 				<div class="col-md-4 column">
 					<div id="recent-posts-2" class="widget widget_recent_entries">
 						<h3 class="widget-title">Recent Blogs</h3>
-						<ul>
-							<?php while (have_posts()): the_post(); ?>
-							<p><strong><a href="<?php the_permalink(); ?>" title="Read full post"><?php the_title(); ?></a></strong> - <?php the_time('jS F') ?></p>
-							<?php the_excerpt(); ?>
-							<?php endwhile; ?>
-						</ul>
+						<?php while (have_posts()): the_post(); ?>
+						<p><strong><a href="<?php the_permalink(); ?>" title="Read full post"><?php the_title(); ?></a></strong> - <?php the_time('jS F') ?></p>
+						<?php the_excerpt(); ?>
+						<?php endwhile; ?>
 					</div>
 				</div>
 
