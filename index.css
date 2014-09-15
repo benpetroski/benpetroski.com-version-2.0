@@ -464,15 +464,11 @@ footer .widget_md_widget_recent_posts li img{
 .skill { 
 	list-style: none;
 	width: 296px;
-	margin: 20px auto 0;
+	margin: 10px auto 0;
 	position: relative;
 	line-height: .97em;
 	padding: 30px 0;
 	display: inline-table;
-}
-
-.left-col {
-	margin-right: 50px;
 }
 
 #skills > div {
@@ -481,7 +477,8 @@ footer .widget_md_widget_recent_posts li img{
 }
 
 .skill li { 
-	margin-bottom:50px; 
+	height: 10px;
+	margin-bottom:40px; 
 	background:#000;
 }
 
@@ -491,7 +488,7 @@ footer .widget_md_widget_recent_posts li img{
 }
 
 .bar { 
-	height:19px; 
+	height:10px; 
 	position:absolute;
 	margin: 0px -148px;
 }
