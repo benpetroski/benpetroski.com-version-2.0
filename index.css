@@ -454,3 +454,119 @@ footer .widget_md_widget_recent_posts li img{
 	border-color: rgba(255, 255, 255, 0.1);
 	color: #fff;
 }
+
+/* !skills */
+#skills {
+	background-color: #222;
+}
+
+
+.skill { 
+	list-style: none;
+	width: 296px;
+	margin: 20px auto 0;
+	position: relative;
+	line-height: .97em;
+	padding: 30px 0;
+	display: inline-table;
+}
+
+.left-col {
+	margin-right: 50px;
+}
+
+#skills > div {
+	width: 646px;
+	margin: 0 auto;
+}
+
+.skill li { 
+	margin-bottom:50px; 
+	background:#000;
+}
+
+.skill li h4 { 
+	position:relative; 
+	top:-25px!important;
+}
+
+.bar { 
+	height:19px; 
+	position:absolute;
+	margin: 0px -148px;
+}
+
+.graphic-design {
+	width:98%; 
+	-moz-animation:graphic-design 2s ease-out;
+	-webkit-animation:graphic-design 2s ease-out;
+	background-color: #f674a4;
+}
+
+.ui {
+	width:90%;
+	-moz-animation:ui 2s ease-out;
+	-webkit-animation:ui 2s ease-out;
+	background-color: #F1C40F;
+}
+
+.web-design {
+	width:94%;
+	-moz-animation:web-design 2s ease-out;
+	-webkit-animation:web-design 2s ease-out;
+	background-color: #3498db;
+}
+
+.logo-design {
+	width:87%;
+	-moz-animation:logo-design 2s ease-out;
+	-webkit-animation:logo-design 2s ease-out;
+	background-color: #1abc9c;
+}
+
+.branding {
+	width:87%;
+	-moz-animation:branding 2s ease-out;
+	-webkit-animation:branding 2s ease-out;
+	background-color: #1abc9c;
+}
+
+.photography {
+	width:82%;
+	-moz-animation:photography 2s ease-out;
+	-webkit-animation:photography 2s ease-out;
+	background-color: #F1C40F;
+}
+
+.html-css {
+	width:93%;
+	-moz-animation:html-css 2s ease-out;
+	-webkit-animation:html-css 2s ease-out;
+	background-color: #3498db;
+}
+
+.jquery {
+	width:40%;
+	-moz-animation:jquery 2s ease-out;
+	-webkit-animation:jquery 2s ease-out;
+	background-color: #f674a4;
+}
+
+@-moz-keyframes graphic-design {0%  { width:0px;} 100%{ width:98%;}  }
+@-moz-keyframes ui   { 0%  { width:0px;} 100%{ width:90%;}  }
+@-moz-keyframes web-design   { 0%  { width:0px;} 100%{ width:94%;}  }
+@-moz-keyframes logo-design   { 0%  { width:0px;} 100%{ width:87%;}  }
+@-moz-keyframes branding   { 0%  { width:0px;} 100%{ width:87%;}  }
+@-moz-keyframes photography   { 0%  { width:0px;} 100%{ width:82%;}  }
+@-moz-keyframes html-css        { 0%  { width:0px;} 100%{ width:93%;}  }
+@-moz-keyframes jquery      { 0%  { width:0px;} 100%{ width:40%;}  }
+
+@-webkit-keyframes graphic-design {0%  { width:0px;} 100%{ width:98%;}  }
+@-webkit-keyframes ui   { 0%  { width:0px;} 100%{ width:90%;}  }
+@-webkit-keyframes web-design   { 0%  { width:0px;} 100%{ width:94%;}  }
+@-webkit-keyframes logo-design   { 0%  { width:0px;} 100%{ width:87%;}  }
+@-webkit-keyframes branding   { 0%  { width:0px;} 100%{ width:87%;}  }
+@-webkit-keyframes photography   { 0%  { width:0px;} 100%{ width:82%;}  }
+@-webkit-keyframes html-css        { 0%  { width:0px;} 100%{ width:93%;}  }
+@-webkit-keyframes jquery      { 0%  { width:0px;} 100%{ width:40%;}  }
+	
