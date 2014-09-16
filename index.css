@@ -493,77 +493,75 @@ footer .widget_md_widget_recent_posts li img{
 	margin: 0px -148px;
 }
 
-.graphic-design {
+.skill1 {
 	width:98%; 
-	-moz-animation:graphic-design 2s ease-out;
-	-webkit-animation:graphic-design 2s ease-out;
-	background-color: #f674a4;
+	-moz-animation:skill1 8s ease-out;
+	-webkit-animation:skill1 8s ease-out;
+	background-color: #34495e;
 }
 
-.ui {
+.skill2 {
 	width:90%;
-	-moz-animation:ui 2s ease-out;
-	-webkit-animation:ui 2s ease-out;
-	background-color: #F1C40F;
+	-moz-animation:skill2 8s ease-out;
+	-webkit-animation:skill2 8s ease-out;
+	background-color: #16a085;
 }
 
-.web-design {
+.skill3 {
 	width:94%;
-	-moz-animation:web-design 2s ease-out;
-	-webkit-animation:web-design 2s ease-out;
-	background-color: #3498db;
+	-moz-animation:skill3 8s ease-out;
+	-webkit-animation:skill3 8s ease-out;
+	background-color: #7f8c8d;
 }
 
-.logo-design {
+.skill4 {
 	width:87%;
-	-moz-animation:logo-design 2s ease-out;
-	-webkit-animation:logo-design 2s ease-out;
-	background-color: #1abc9c;
+	-moz-animation:skill4 8s ease-out;
+	-webkit-animation:skill4 8s ease-out;
+	background-color: #2980b9;
 }
-
-.branding {
+.skill5 {
 	width:87%;
-	-moz-animation:branding 2s ease-out;
-	-webkit-animation:branding 2s ease-out;
-	background-color: #1abc9c;
+	-moz-animation:skill5 8s ease-out;
+	-webkit-animation:skill5 8s ease-out;
+	background-color: #34495E;
 }
 
-.photography {
+.skill6 {
 	width:82%;
-	-moz-animation:photography 2s ease-out;
-	-webkit-animation:photography 2s ease-out;
-	background-color: #F1C40F;
+	-moz-animation:skill6 8s ease-out;
+	-webkit-animation:skill6 8s ease-out;
+	background-color: #2C3E50;
 }
-
-.html-css {
+.skill7 {
 	width:93%;
-	-moz-animation:html-css 2s ease-out;
-	-webkit-animation:html-css 2s ease-out;
-	background-color: #3498db;
+	-moz-animation:skill7 8s ease-out;
+	-webkit-animation:skill7 8s ease-out;
+	background-color: #1E824C;
 }
 
-.jquery {
+.skill8 {
 	width:40%;
-	-moz-animation:jquery 2s ease-out;
-	-webkit-animation:jquery 2s ease-out;
-	background-color: #f674a4;
+	-moz-animation:skill8 8s ease-out;
+	-webkit-animation:skill8 8s ease-out;
+	background-color: #6C7A89;
 }
 
-@-moz-keyframes graphic-design {0%  { width:0px;} 100%{ width:98%;}  }
-@-moz-keyframes ui   { 0%  { width:0px;} 100%{ width:90%;}  }
-@-moz-keyframes web-design   { 0%  { width:0px;} 100%{ width:94%;}  }
-@-moz-keyframes logo-design   { 0%  { width:0px;} 100%{ width:87%;}  }
-@-moz-keyframes branding   { 0%  { width:0px;} 100%{ width:87%;}  }
-@-moz-keyframes photography   { 0%  { width:0px;} 100%{ width:82%;}  }
-@-moz-keyframes html-css        { 0%  { width:0px;} 100%{ width:93%;}  }
-@-moz-keyframes jquery      { 0%  { width:0px;} 100%{ width:40%;}  }
+@-moz-keyframes skill1 {0%  { width:0px;} 100%{ width:98%;}  }
+@-moz-keyframes skill2   { 0%  { width:0px;} 100%{ width:90%;}  }
+@-moz-keyframes skill3   { 0%  { width:0px;} 100%{ width:94%;}  }
+@-moz-keyframes skill4   { 0%  { width:0px;} 100%{ width:87%;}  }
+@-moz-keyframes skill5   { 0%  { width:0px;} 100%{ width:87%;}  }
+@-moz-keyframes skill6   { 0%  { width:0px;} 100%{ width:82%;}  }
+@-moz-keyframes skill7        { 0%  { width:0px;} 100%{ width:93%;}  }
+@-moz-keyframes skill8      { 0%  { width:0px;} 100%{ width:40%;}  }
 
-@-webkit-keyframes graphic-design {0%  { width:0px;} 100%{ width:98%;}  }
-@-webkit-keyframes ui   { 0%  { width:0px;} 100%{ width:90%;}  }
-@-webkit-keyframes web-design   { 0%  { width:0px;} 100%{ width:94%;}  }
-@-webkit-keyframes logo-design   { 0%  { width:0px;} 100%{ width:87%;}  }
-@-webkit-keyframes branding   { 0%  { width:0px;} 100%{ width:87%;}  }
-@-webkit-keyframes photography   { 0%  { width:0px;} 100%{ width:82%;}  }
-@-webkit-keyframes html-css        { 0%  { width:0px;} 100%{ width:93%;}  }
-@-webkit-keyframes jquery      { 0%  { width:0px;} 100%{ width:40%;}  }
+@-webkit-keyframes skill1 {0%  { width:0px;} 100%{ width:98%;}  }
+@-webkit-keyframes skill2   { 0%  { width:0px;} 100%{ width:90%;}  }
+@-webkit-keyframes skill3   { 0%  { width:0px;} 100%{ width:94%;}  }
+@-webkit-keyframes skill4   { 0%  { width:0px;} 100%{ width:87%;}  }
+@-webkit-keyframes skill5   { 0%  { width:0px;} 100%{ width:87%;}  }
+@-webkit-keyframes skill6   { 0%  { width:0px;} 100%{ width:82%;}  }
+@-webkit-keyframes skill7        { 0%  { width:0px;} 100%{ width:93%;}  }
+@-webkit-keyframes skill8      { 0%  { width:0px;} 100%{ width:40%;}  }
 	

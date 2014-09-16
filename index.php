@@ -179,31 +179,6 @@
 				</div>
 			</div>
 
-			<section id="skills">
-				<div>
-					<ul class="skill left-col">
-						<li><span class="bar one graphic-design"></span>
-						<h4>Graphic Design</h4></li>
-						<li><span class="bar two ui"></span>
-						<h4>UI // UX</h4></li>
-						<li><span class="bar four logo-design"></span>
-						<h4>Logo Design</h4></li>
-						<li><span class="bar seven html-css"></span>
-						<h4>HTML // CSS</h4></li>
-					</ul>
-					<ul class="skill">
-						<li><span class="bar three web-design"></span>
-						<h4>Web Design</h4></li>
-						<li><span class="bar five branding"></span>
-						<h4>Branding</h4></li>
-						<li><span class="bar six photography"></span>
-						<h4>Photography</h4></li>
-						<li><span class="bar eight jquery"></span>
-						<h4>JavaScript</h4></li>
-					</ul>
-				</div>
-			</section>
-
 			<div class="inner cover">
 				<h1 class="cover-heading">Hi. I'm Ben.</h1>
 				<p class="lead">I like startups and tech.</p>
@@ -409,10 +384,30 @@
 						Fusce dapibus, tellus ac cursus commodo.</p>
 				</div>
 				<div class="col-md-5">
-					<img class="featurette-image img-responsive"
-						src="http://placehold.it/400x400" alt="Generic placeholder image">
+					<div id="skills">
+						<ul class="skill">
+							<li class="skillA1"><span class="bar one skill1"></span>
+								<h4>Verilog/VHDL, Python, C/C++</h4></li>
+							<li class="skillA2"><span class="bar two skill2"></span>
+								<h4>State Machines, System Design</h4></li>
+							<li class="skillA3"><span class="bar four skill3"></span>
+								<h4>Analog/Digital Circuit Design</h4></li>
+							<li class="skillA4"><span class="bar seven skill4"></span>
+								<h4>Java, HTML, CSS, JS</h4></li>
+							<li class="skillA5"><span class="bar three skill5"></span>
+								<h4>Lab Equipment</h4></li>
+							<li class="skillA6"><span class="bar five skill6"></span>
+								<h4>SPICE, Cadence, Eagle</h4></li>
+							<li class="skillA7"><span class="bar six skill7"></span>
+								<h4>ASICs, FPGAs, Electronics</h4></li>
+							<li class="skillA8"><span class="bar eight skill8"></span>
+								<h4>Product Development, Startups</h4></li>
+						</ul>
+					</div>
 				</div>
 			</div>
+
+
 
 
 			<!-- /END THE FEATURETTES -->
