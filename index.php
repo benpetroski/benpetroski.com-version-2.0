@@ -199,6 +199,65 @@
 
 	<!-- About Section -->
 	<section id="about" class="about-section">
+		<!-- Marketing messaging and featurettes
+	    ================================================== -->
+		<!-- Wrap the rest of the page in another container to center all the content. -->
+
+		<div class="container marketing">
+
+			<!-- Three columns of text below the carousel -->
+			<div class="row textColumns">
+				<div class="col-lg-4">
+					<img class="img-circle"
+						src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+						alt="Generic placeholder image"
+						style="width: 140px; height: 140px;">
+					<h2>I know a bit about a byte of things.</h2>
+					<p>Like a lot of things. And if I don't, then I'm probably
+						trying to learn it or it's on my to do list. (Which is pretty
+						long...)</p>
+					<p>
+						<a class="btn btn-default" href="#" role="button">View details
+							&raquo;</a>
+					</p>
+				</div>
+				<!-- /.col-lg-4 -->
+				<div class="col-lg-4">
+					<img class="img-circle"
+						src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+						alt="Generic placeholder image"
+						style="width: 140px; height: 140px;">
+					<h2>Heading</h2>
+					<p>Duis mollis, est non commodo luctus, nisi erat porttitor
+						ligula, eget lacinia odio sem nec elit. Cras mattis consectetur
+						purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo,
+						tortor mauris condimentum nibh.</p>
+					<p>
+						<a class="btn btn-default" href="#" role="button">View details
+							&raquo;</a>
+					</p>
+				</div>
+				<!-- /.col-lg-4 -->
+				<div class="col-lg-4">
+					<img class="img-circle"
+						src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+						alt="Generic placeholder image"
+						style="width: 140px; height: 140px;">
+					<h2>Heading</h2>
+					<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis
+						in, egestas eget quam. Vestibulum id ligula porta felis euismod
+						semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+						condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+					<p>
+						<a class="btn btn-default" href="#" role="button">View details
+							&raquo;</a>
+					</p>
+				</div>
+				<!-- /.col-lg-4 -->
+			</div>
+			<!-- /.row -->
+		</div>
+
 		<!-- Carousel
 	    ================================================== -->
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -273,67 +332,7 @@
 		</div>
 		<!-- /.carousel -->
 
-
-
-		<!-- Marketing messaging and featurettes
-	    ================================================== -->
-		<!-- Wrap the rest of the page in another container to center all the content. -->
-
 		<div class="container marketing">
-
-			<!-- Three columns of text below the carousel -->
-			<div class="row">
-				<div class="col-lg-4">
-					<img class="img-circle"
-						src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-						alt="Generic placeholder image"
-						style="width: 140px; height: 140px;">
-					<h2>I know a bit about a byte of things.</h2>
-					<p>Like a lot of things. And if I don't, then I'm probably
-						trying to learn it or it's on my to do list. (Which is pretty
-						long...)</p>
-					<p>
-						<a class="btn btn-default" href="#" role="button">View details
-							&raquo;</a>
-					</p>
-				</div>
-				<!-- /.col-lg-4 -->
-				<div class="col-lg-4">
-					<img class="img-circle"
-						src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-						alt="Generic placeholder image"
-						style="width: 140px; height: 140px;">
-					<h2>Heading</h2>
-					<p>Duis mollis, est non commodo luctus, nisi erat porttitor
-						ligula, eget lacinia odio sem nec elit. Cras mattis consectetur
-						purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo,
-						tortor mauris condimentum nibh.</p>
-					<p>
-						<a class="btn btn-default" href="#" role="button">View details
-							&raquo;</a>
-					</p>
-				</div>
-				<!-- /.col-lg-4 -->
-				<div class="col-lg-4">
-					<img class="img-circle"
-						src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-						alt="Generic placeholder image"
-						style="width: 140px; height: 140px;">
-					<h2>Heading</h2>
-					<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis
-						in, egestas eget quam. Vestibulum id ligula porta felis euismod
-						semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-						condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-					<p>
-						<a class="btn btn-default" href="#" role="button">View details
-							&raquo;</a>
-					</p>
-				</div>
-				<!-- /.col-lg-4 -->
-			</div>
-			<!-- /.row -->
-
-
 			<!-- START THE FEATURETTES -->
 
 
@@ -406,12 +405,7 @@
 					</div>
 				</div>
 			</div>
-
-
-
-
 			<!-- /END THE FEATURETTES -->
-
 		</div>
 		<!-- /.container -->
 	</section>
