@@ -248,6 +248,9 @@
 	/* Start Footer
 	/*-----------------------------------------------------------------------------------*/
 ?>
-
+	<script src="jquery.min.js"></script>
+	<script src="bootstrap.min.js"></script>
+	<script src="jquery.easing.min.js"></script>
+	<script src="scrolling-nav.js"></script>
 </body>
 </html>
