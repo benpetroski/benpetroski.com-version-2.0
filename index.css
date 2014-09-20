@@ -462,8 +462,8 @@ footer .widget_md_widget_recent_posts li img{
 /* !skills */
 #skills {
 	background-color: #222;
-	width: 500px;
-	height: 450px;
+	width: 400px;
+	height: 400px;
 	margin: auto;
 }
 
@@ -546,13 +546,6 @@ footer .widget_md_widget_recent_posts li img{
 	background-color: #1E824C;
 }
 
-.skill8 {
-	width:40%;
-	-moz-animation:skill8 6s ease-out;
-	-webkit-animation:skill8 6s ease-out;
-	background-color: #6C7A89;
-}
-
 @-moz-keyframes skill1 {0%  { width:0px;} 100%{ width:98%;}  }
 @-moz-keyframes skill2   { 0%  { width:0px;} 100%{ width:90%;}  }
 @-moz-keyframes skill3   { 0%  { width:0px;} 100%{ width:94%;}  }
@@ -560,7 +553,6 @@ footer .widget_md_widget_recent_posts li img{
 @-moz-keyframes skill5   { 0%  { width:0px;} 100%{ width:87%;}  }
 @-moz-keyframes skill6   { 0%  { width:0px;} 100%{ width:82%;}  }
 @-moz-keyframes skill7        { 0%  { width:0px;} 100%{ width:93%;}  }
-@-moz-keyframes skill8      { 0%  { width:0px;} 100%{ width:40%;}  }
 
 @-webkit-keyframes skill1 {0%  { width:0px;} 100%{ width:98%;}  }
 @-webkit-keyframes skill2   { 0%  { width:0px;} 100%{ width:90%;}  }
@@ -569,5 +561,4 @@ footer .widget_md_widget_recent_posts li img{
 @-webkit-keyframes skill5   { 0%  { width:0px;} 100%{ width:87%;}  }
 @-webkit-keyframes skill6   { 0%  { width:0px;} 100%{ width:82%;}  }
 @-webkit-keyframes skill7        { 0%  { width:0px;} 100%{ width:93%;}  }
-@-webkit-keyframes skill8      { 0%  { width:0px;} 100%{ width:40%;}  }
 	

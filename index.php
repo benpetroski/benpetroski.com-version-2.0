@@ -383,7 +383,7 @@
 						Fusce dapibus, tellus ac cursus commodo.</p>
 				</div>
 				<div class="col-md-5">
-					<div id="skills">
+					<div id="skills" class="featurette-image img-responsive">
 						<ul class="skill">
 							<li class="skillA1"><span class="bar one skill1"></span>
 								<h4>Verilog/VHDL, Python, C/C++</h4></li>
@@ -399,8 +399,6 @@
 								<h4>SPICE, Cadence, Eagle</h4></li>
 							<li class="skillA7"><span class="bar six skill7"></span>
 								<h4>ASICs, FPGAs, Electronics</h4></li>
-							<li class="skillA8"><span class="bar eight skill8"></span>
-								<h4>Product Development, Startups</h4></li>
 						</ul>
 					</div>
 				</div>
