@@ -47,7 +47,7 @@
 							 */
 							$.ajax({
 								type : 'POST',
-								url : 'takeform.php',
+								url : 'wp-content/themes/Less/takeform.php',
 								data : $(this).serialize()
 							}).done(function(data) {
 
