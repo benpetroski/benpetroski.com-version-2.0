@@ -37,76 +37,6 @@ body {
 	margin: 80px 0px 50px;
 }
 
-/* CUSTOMIZE THE CAROUSEL
--------------------------------------------------- */
-
-/* Carousel base class */
-.carousel {
-	height: 500px;
-	margin-bottom: 0px;
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-	z-index: 10;
-}
-
-/* Declare heights because of positioning of img element */
-.carousel .item {
-	height: 500px;
-	background-color: #777;
-}
-
-.carousel-inner>.item>img {
-	position: absolute;
-	top: 0;
-	left: 0;
-	min-width: 100%;
-	height: 500px;
-}
-
-/* MARKETING CONTENT
--------------------------------------------------- */
-
-/* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
-	margin-bottom: 20px;
-	text-align: center;
-}
-
-.marketing h2 {
-	font-weight: normal;
-}
-
-.marketing .col-lg-4 p {
-	margin-right: 10px;
-	margin-left: 10px;
-}
-
-/* Featurettes
-------------------------- */
-
-/* Thin out the marketing headings */
-.featurette-heading {
-	font-weight: 300;
-	line-height: 1;
-	letter-spacing: -1px;
-}
-
-#featuretteA {
-	padding: 30px 0;
-	background-color: #6C7A89;
-}
-
-#featuretteB {
-	padding: 30px 0;
-	background-color: #34495E;
-}
-
-#featuretteC {
-	padding: 30px 0;
-	background-color: #22313F;
-}
-
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 @media ( min-width : 768px) {
@@ -176,25 +106,6 @@ body {
 	text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
 }
 
-/* Extra markup and styles for table-esque vertical and horizontal centering */
-.site-wrapper {
-	display: table;
-	width: 100%;
-	height: 110%; /* For at least Firefox */
-	min-height: 110%;
-	-webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
-	box-shadow: inset 0 0 100px rgba(0, 0, 0, .5);
-	background-image: url("images/milkyWayLowResCrop.jpg");
-	background-size: auto 130%;
-	background-position: center 0px;
-	background-repeat: no-repeat;
-}
-
-.site-wrapper-inner {
-	display: table-cell;
-	vertical-align: middle;
-}
-
 .cover-container {
 	margin-right: auto;
 	margin-left: auto;
@@ -252,18 +163,6 @@ body {
 }
 
 /*
- * Cover
- */
-.cover {
-	padding: 0 20px;
-}
-
-.cover .btn-lg {
-	padding: 10px 20px;
-	font-weight: bold;
-}
-
-/*
  * Footer
  */
 .mastfoot {
@@ -282,10 +181,6 @@ body {
 		z-index: 101;
 		position: fixed;
 		top: -20px;
-	}
-	/* Start the vertical centering */
-	.site-wrapper-inner {
-		vertical-align: middle;
 	}
 	/* Handle the widths */
 	.masthead, .cover-container {
@@ -341,17 +236,6 @@ div.container {
 
 .modal-content, .modal-body {
 	background-color: #222;
-}
-
-#map-canvas {
-	min-height: 500px;
-	margin: 0px;
-	padding: 0px
-}
-
-.featurette-image {
-	margin-left: auto;
-	margin-right: auto;
 }
 
 #name, #email, #message { 
@@ -459,106 +343,34 @@ footer .widget_md_widget_recent_posts li img{
 	color: #fff;
 }
 
-/* !skills */
-#skills {
-	background-color: #222;
-	width: 400px;
-	height: 400px;
-	margin: auto;
-}
 
 
-.skill { 
-	list-style: none;
-	width: 296px;
-	margin: 10px auto 0;
-	position: relative;
-	line-height: .97em;
-	padding: 30px 0;
-	display: inline-table;
-}
 
-#skills > div {
-	margin: 0 auto;
-}
 
-.skill li { 
-	height: 10px;
-	margin-bottom:40px; 
-	background:#000;
-}
 
-.skill li h4 { 
-	position:relative; 
-	top:-25px!important;
-}
 
-.bar { 
-	height:10px; 
-	position:absolute;
-	margin: 0px -148px;
-}
 
-.skill1 {
-	width:98%; 
-	-moz-animation:skill1 6s ease-out;
-	-webkit-animation:skill1 6s ease-out;
-	background-color: #34495e;
-}
 
-.skill2 {
-	width:90%;
-	-moz-animation:skill2 6s ease-out;
-	-webkit-animation:skill2 6s ease-out;
-	background-color: #16a085;
-}
 
-.skill3 {
-	width:94%;
-	-moz-animation:skill3 6s ease-out;
-	-webkit-animation:skill3 6s ease-out;
-	background-color: #7f8c8d;
-}
 
-.skill4 {
-	width:87%;
-	-moz-animation:skill4 6s ease-out;
-	-webkit-animation:skill4 6s ease-out;
-	background-color: #2980b9;
-}
-.skill5 {
-	width:87%;
-	-moz-animation:skill5 6s ease-out;
-	-webkit-animation:skill5 6s ease-out;
-	background-color: #34495E;
-}
 
-.skill6 {
-	width:82%;
-	-moz-animation:skill6 6s ease-out;
-	-webkit-animation:skill6 6s ease-out;
-	background-color: #2C3E50;
-}
-.skill7 {
-	width:93%;
-	-moz-animation:skill7 6s ease-out;
-	-webkit-animation:skill7 6s ease-out;
-	background-color: #1E824C;
-}
 
-@-moz-keyframes skill1 {0%  { width:0px;} 100%{ width:98%;}  }
-@-moz-keyframes skill2   { 0%  { width:0px;} 100%{ width:90%;}  }
-@-moz-keyframes skill3   { 0%  { width:0px;} 100%{ width:94%;}  }
-@-moz-keyframes skill4   { 0%  { width:0px;} 100%{ width:87%;}  }
-@-moz-keyframes skill5   { 0%  { width:0px;} 100%{ width:87%;}  }
-@-moz-keyframes skill6   { 0%  { width:0px;} 100%{ width:82%;}  }
-@-moz-keyframes skill7        { 0%  { width:0px;} 100%{ width:93%;}  }
 
-@-webkit-keyframes skill1 {0%  { width:0px;} 100%{ width:98%;}  }
-@-webkit-keyframes skill2   { 0%  { width:0px;} 100%{ width:90%;}  }
-@-webkit-keyframes skill3   { 0%  { width:0px;} 100%{ width:94%;}  }
-@-webkit-keyframes skill4   { 0%  { width:0px;} 100%{ width:87%;}  }
-@-webkit-keyframes skill5   { 0%  { width:0px;} 100%{ width:87%;}  }
-@-webkit-keyframes skill6   { 0%  { width:0px;} 100%{ width:82%;}  }
-@-webkit-keyframes skill7        { 0%  { width:0px;} 100%{ width:93%;}  }
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
