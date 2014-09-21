@@ -561,4 +561,21 @@ footer .widget_md_widget_recent_posts li img{
 @-webkit-keyframes skill5   { 0%  { width:0px;} 100%{ width:87%;}  }
 @-webkit-keyframes skill6   { 0%  { width:0px;} 100%{ width:82%;}  }
 @-webkit-keyframes skill7        { 0%  { width:0px;} 100%{ width:93%;}  }
+
+
+
+
+
+
+
+.headerAddition, .headerAddition .masthead-brand{
+	font-family: sans-serif;
+	font-size: 24px;
+}
+
+.headerAddition .masthead-nav{
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
 	

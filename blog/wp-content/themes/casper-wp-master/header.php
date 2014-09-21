@@ -19,6 +19,77 @@
 
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+
+<!-- Bootstrap core CSS -->
+<link href="wp-content/themes/casper-wp-master/bootstrap/css/bootstrap.min.css"
+	rel="stylesheet">
+<script
+	src="http://getbootstrap.com/assets/js/ie-emulation-modes-warning.js"></script>
+<script
+	src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+<script type="text/javascript"
+	src="wp-content/themes/casper-wp-master/bootstrap/js/konami.js"></script>
+<script type="text/javascript">
+	var easter_egg = new Konami('http://benpetroski.com/blog/wp-admin/');
+</script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js "></script>
+<script>
+	$(document).ready(
+			function() {
+				$('#contactForm').submit(
+						function() {
+
+							// show that something is loading
+							$('#response').html("<b>Loading response...</b>");
+
+							/*
+							 * 'post_receiver.php' - where you will pass the form data
+							 * $(this).serialize() - to easily read form data
+							 * function(data){... - data contains the response from post_receiver.php
+							 */
+							$.ajax({
+								type : 'POST',
+								url : 'wp-content/themes/Less/takeform.php',
+								data : $(this).serialize()
+							}).done(function(data) {
+
+								console.log(data);
+
+								data = data.replace(/\*/g, '');
+								data = data.replace(/\//g, '');
+
+								console.log(data);
+								// show the response
+								$('#response').text(data);
+
+							}).fail(function() {
+
+								// just in case posting your form failed
+								alert("Posting failed.");
+
+							});
+
+							// to prevent refreshing the whole page page
+							$(':input', '#contactForm').not(
+									':button, :submit, :reset, :hidden')
+									.val('').removeAttr('checked').removeAttr(
+											'selected');
+							return false;
+
+						});
+				$('#cancel').click(
+						function() {
+							$(':input', '#contactForm').not(
+									':button, :submit, :reset, :hidden')
+									.val('').removeAttr('checked').removeAttr(
+											'selected');
+						});
+			});
+</script>
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+
 <?php wp_head(); ?>
 </head>
 

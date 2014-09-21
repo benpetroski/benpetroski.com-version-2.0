@@ -160,11 +160,10 @@
 	<div class="site-wrapper">
 
 		<div class="site-wrapper-inner">
-
 			<div class="cover-container">
 
 				<div class="mastheadBox clearfix"></div>
-				<div class="masthead clearfix">
+				<div class="masthead navbar clearfix">
 					<div class="inner">
 						<h3 class="masthead-brand">
 							<a href="#">BenPetroski.com</a>
