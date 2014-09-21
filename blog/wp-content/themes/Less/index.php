@@ -38,8 +38,8 @@
 								<a href="#">BenPetroski.com</a>
 							</h3>
 							<ul class="nav masthead-nav">
-								<li class="active"><a href="index.html">About</a></li>
-								<li><a href="..\blog\">Blog</a></li>
+								<li><a href="http://benpetroski.com">About</a></li>
+								<li class="active"><a href="#">Blog</a></li>
 								<li><a href="" data-toggle="modal"
 									data-target="#contactModal">Contact</a></li>
 							</ul>
