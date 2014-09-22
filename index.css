@@ -281,7 +281,7 @@ body {
 		background-color: #111;
 		z-index: 101;
 		position: fixed;
-		top: -20px;
+		top: -25px;
 	}
 	/* Start the vertical centering */
 	.site-wrapper-inner {
@@ -401,11 +401,14 @@ footer {
     background-color: rgba(235, 235, 235, 0.80);
     font-size: 12px;
     padding: 1em;
+    text-shadow: none;
 }
 
 .back-to-top:hover {    
 	text-decoration: none;
     background-color: rgba(185, 185, 185, 0.65);
+    -webkit-transition:all 0.4s; /* For Safari 3.1 to 6.0 */
+	transition:all 0.4s;
 }
 
 .widget_recent_entries li{

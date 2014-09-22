@@ -761,13 +761,15 @@ a, a:focus, a:hover {
 .mastfoot {
 	color: #999; /* IE8 proofing */
 	color: rgba(255, 255, 255, .5);
-}
-
-.mastfoot {
+	left: 0px;
 	z-index: 101;
 	position: fixed;
 	bottom: 0;
 	width: 100%;
+	margin: auto;
+	
+	border: 1px solid blue;
+    margin: 2px;
 }
 
 .modal-body, a:focus {
@@ -872,6 +874,7 @@ footer {
 }
 
 .back-to-top {	
+	text-align: center;
 	display: none;
     bottom: 2em;
     text-decoration: none;
@@ -879,11 +882,18 @@ footer {
     background-color: rgba(235, 235, 235, 0.80);
     font-size: 12px;
     padding: 1em;
+    margin: auto;
+    
+    
+    border: 1px solid red;
+    margin: 2px;
 }
 
 .back-to-top:hover {    
 	text-decoration: none;
     background-color: rgba(185, 185, 185, 0.65);
+    -webkit-transition:all 0.4s; /* For Safari 3.1 to 6.0 */
+	transition:all 0.4s;
 }
 
 /* Media Queries for responsivenessssssss
@@ -916,7 +926,7 @@ footer {
 		background-color: #111;
 		z-index: 101;
 		position: fixed;
-		top: -20px;
+		top: -25px;
 	}
 	/* Start the vertical centering */
 	.site-wrapper-inner {
@@ -936,10 +946,11 @@ footer {
 	}
 	.mastheadBox {
 		background-color: #111;
-		min-height: 58px;
+		min-height: 59px;
 		width: 100%;
 		top: 0px;
 		left: 0px;
+		
 	}
 	.masthead-brand {
 		float: left;
@@ -984,9 +995,9 @@ footer {
 	}
 	.mastheadBox {
 		background-color: #111;
-		min-height: 54px;
+		min-height: 59px;
 		width: 100%;
-		top: 0px;
+		top: -2px;
 		left: 0px;
 	}
 }
