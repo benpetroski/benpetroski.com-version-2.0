@@ -282,6 +282,7 @@ body {
 		z-index: 101;
 		position: fixed;
 		top: -25px;
+		border-radius: 0px;
 	}
 	/* Start the vertical centering */
 	.site-wrapper-inner {
@@ -309,8 +310,9 @@ body {
 		background-color: #111;
 		min-height: 56px;
 		width: 100%;
-		top: 0px;
+		top: -2px;
 		left: 0px;
+		border-radius: 0px;
 	}
 	.modal-dialog {
 		position: absolute;

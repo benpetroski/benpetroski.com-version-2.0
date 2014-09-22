@@ -384,12 +384,12 @@ a:hover, a:focus, a:active {
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
-	margin: 0;
-	float: right;
+	margin: auto;
+	text-align: center;
 }
 
 .headed #brand {
-	float: left;
+	margin: auto;
 	width: 80%;
 	margin-top: 22px;
 }
@@ -650,6 +650,9 @@ html[xmlns] .clearfix {
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
+.mastfoot {
+	text-align: center;
+}
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
@@ -710,7 +713,7 @@ a, a:focus, a:hover {
 
 .masthead-nav>li {
 	height: 46px;
-	display: inline-block;	
+	display: inline-block;
 }
 
 .masthead-nav>li:hover, .masthead-nav>.active {
@@ -721,7 +724,8 @@ a, a:focus, a:hover {
 	background-color: transparent;
 }
 
-.masthead-nav>.active>a, .masthead-nav>.active>a:hover, .masthead-nav>.active>a:focus {
+.masthead-nav>.active>a, .masthead-nav>.active>a:hover, .masthead-nav>.active>a:focus
+	{
 	color: #fff;
 }
 
@@ -739,7 +743,8 @@ a, a:focus, a:hover {
 	border-bottom: 2px solid transparent;
 }
 
-.masthead-nav>.active>a, .masthead-nav>.active>a:hover, .masthead-nav>.active>a:focus{
+.masthead-nav>.active>a, .masthead-nav>.active>a:hover, .masthead-nav>.active>a:focus
+	{
 	color: #fff;
 }
 
@@ -766,10 +771,6 @@ a, a:focus, a:hover {
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	margin: auto;
-	
-	border: 1px solid blue;
-    margin: 2px;
 }
 
 .modal-body, a:focus {
@@ -849,10 +850,10 @@ footer {
 }
 
 .masthead-nav {
-	margin-top: -2px;	
-	margin-right: -1px;
-	height: 44px;
+	margin-top: -2px;
+	margin-right: -1px; height : 44px;
 	width: 190px;
+	height: 44px;
 }
 
 .cover-container, .navbar {
@@ -863,7 +864,8 @@ footer {
 }
 
 .masthead {
-	margin: 0 auto;
+	margin: auto;
+	text-align: center;
 }
 
 #content {
@@ -871,29 +873,6 @@ footer {
 	width: 500px;
 	margin: auto;
 	padding: 0px;
-}
-
-.back-to-top {	
-	text-align: center;
-	display: none;
-    bottom: 2em;
-    text-decoration: none;
-    color: #000000;
-    background-color: rgba(235, 235, 235, 0.80);
-    font-size: 12px;
-    padding: 1em;
-    margin: auto;
-    
-    
-    border: 1px solid red;
-    margin: 2px;
-}
-
-.back-to-top:hover {    
-	text-decoration: none;
-    background-color: rgba(185, 185, 185, 0.65);
-    -webkit-transition:all 0.4s; /* For Safari 3.1 to 6.0 */
-	transition:all 0.4s;
 }
 
 /* Media Queries for responsivenessssssss
@@ -946,11 +925,11 @@ footer {
 	}
 	.mastheadBox {
 		background-color: #111;
-		min-height: 59px;
+		min-height: 56px;
 		width: 100%;
-		top: 0px;
+		top: -2px;
 		left: 0px;
-		
+		border-radius: none;
 	}
 	.masthead-brand {
 		float: left;
@@ -962,7 +941,7 @@ footer {
 		padding: 0;
 	}
 	.headed .gravatar {
-		float: none;
+		margin: auto;
 	}
 	.headed hgroup {
 		width: 100%;
@@ -973,6 +952,15 @@ footer {
 		height: 75px;
 		margin: auto;
 		padding: 0px;
+	}
+	.headblurb, .site-navigation {
+		width: 100%;
+		text-align: center;
+		margin: auto;
+	}
+	.headblurb li {
+		float: left;
+		clear: left;
 	}
 }
 
@@ -995,10 +983,11 @@ footer {
 	}
 	.mastheadBox {
 		background-color: #111;
-		min-height: 59px;
+		min-height: 56px;
 		width: 100%;
 		top: -2px;
 		left: 0px;
+		border-radius: none;
 	}
 }
 
@@ -1015,7 +1004,27 @@ footer {
 	}
 }
 
-.gravatar {
-	left: 100px;
+.mastfoot .inner, .mastfoot a {
+	
 }
 
+.back-to-top {
+	display: none;
+	bottom: 2em;
+	text-decoration: none;
+	color: #000000;
+	background-color: rgba(235, 235, 235, 0.80);
+	font-size: 12px;
+	padding: 1em;
+}
+
+.back-to-top:hover {
+	text-decoration: none;
+	background-color: rgba(185, 185, 185, 0.65);
+	-webkit-transition: all 0.4s; /* For Safari 3.1 to 6.0 */
+	transition: all 0.4s;
+}
+
+.mastfoot .inner {
+	margin-bottom: -4px;
+}
