@@ -23,10 +23,6 @@
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <!-- Custom styles for this template -->
 <link href="index.css" rel="stylesheet">
-<script
-	src="http://getbootstrap.com/assets/js/ie-emulation-modes-warning.js"></script>
-<script
-	src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
 <script type="text/javascript" src="bootstrap/js/konami.js"></script>
 <script type="text/javascript">
 	konami = new Konami(function() {
@@ -627,13 +623,13 @@
 	<!-- Placed at the end of the document so the pages load faster -->
 	<script>
 		jQuery(document).ready(function() {
-			var offset = 220;
+			var offset = 100;
 			var duration = 500;
 			jQuery(window).scroll(function() {
 				if (jQuery(this).scrollTop() > offset) {
-					jQuery('.back-to-top').fadeIn(duration);
+					$(this).find('.back-to-top').finish().fadeTo('slow',1);
 				} else {
-					jQuery('.back-to-top').fadeOut(duration);
+					$(this).find('.back-to-top').finish().fadeTo('slow',0);
 				}
 			});
 
@@ -645,12 +641,12 @@
 				return false;
 			})
 		});
-		$(document).scroll(function() {
+		jQuery(document).scroll(function() {
 			var y = $(this).scrollTop();
 			if (y > 600) {
-				$('.back-to-top').fadeIn();
+				$(this).find('.back-to-top').finish().fadeTo('slow',1);
 			} else {
-				$('.back-to-top').fadeOut();
+				$(this).find('.back-to-top').finish().fadeTo('slow',0);
 			}
 		});
 	</script>
