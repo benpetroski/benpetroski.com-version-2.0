@@ -37,7 +37,7 @@
 							<h3 class="masthead-brand">
 								<a href="#">BenPetroski.com</a>
 							</h3>
-							<ul class="nav masthead-nav">
+							<ul class="nav masthead-nav navbar2">
 								<li><a href="http://benpetroski.com">About</a></li>
 								<li class="active"><a href="#">Blog</a></li>
 								<li><a href="" data-toggle="modal"
@@ -52,32 +52,30 @@
 
 					<div id="masthead" class="site-header" role="banner">
 						<div class="headed">
-							<div class="container headblurb">
-								<ul>
-									<li>
-										<div class="gravatar">
-											<a href="http://bnptr.sk"> <?php $admin_email = get_option('admin_email'); echo get_avatar( $admin_email, 100 ); ?></a>
-										</div>
-									</li>
-									<li>
-										<div id="brand">
-											<h1 class="site-title">
-												<a href="<?php echo esc_url( home_url( '/' ) ); ?>"
-													title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"
-													rel="home">
-													<?php bloginfo( 'name' ); ?>
-												</a> &mdash; <span>
-													<?php echo get_bloginfo( 'description' ); ?>
-												</span>
-											</h1>
-										</div>
-									</li>
-									<li>
-										<nav role="navigation" class="site-navigation main-navigation">
-											<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-										</nav>
-									</li>
-								</ul>
+							<div class="container headblurb">								
+								<li>
+									<div class="gravatar">
+										<a href="http://bnptr.sk"> <?php $admin_email = get_option('admin_email'); echo get_avatar( $admin_email, 100 ); ?></a>
+									</div>
+								</li>
+								<li>
+									<div id="brand">
+										<h1 class="site-title">
+											<a href="<?php echo esc_url( home_url( '/' ) ); ?>"
+												title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"
+												rel="home">
+												<?php bloginfo( 'name' ); ?>
+											</a> &mdash; <span>
+												<?php echo get_bloginfo( 'description' ); ?>
+											</span>
+										</h1>
+									</div>
+								</li>
+								<li>
+									<div role="navigation" class="site-navigation main-navigation">
+										<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+									</div>
+								</li>								
 							</div>
 							<!--/container -->
 
