@@ -500,12 +500,13 @@ footer .widget_md_widget_recent_posts li img{
 
 .bar { 
 	height:10px; 
-	position:absolute;
 	margin: 0px -148px;
 }
 
 .skill1 {
 	width:98%; 
+	animation:skill1 6s ease-out;
+	-o-animation:skill1 6s ease-out;
 	-moz-animation:skill1 6s ease-out;
 	-webkit-animation:skill1 6s ease-out;
 	background-color: #34495e;
@@ -513,6 +514,8 @@ footer .widget_md_widget_recent_posts li img{
 
 .skill2 {
 	width:90%;
+	animation:skill2 6s ease-out;
+	-o-animation:skill2 6s ease-out;
 	-moz-animation:skill2 6s ease-out;
 	-webkit-animation:skill2 6s ease-out;
 	background-color: #16a085;
@@ -520,6 +523,8 @@ footer .widget_md_widget_recent_posts li img{
 
 .skill3 {
 	width:94%;
+	animation:skill3 6s ease-out;
+	-o-animation:skill3 6s ease-out;
 	-moz-animation:skill3 6s ease-out;
 	-webkit-animation:skill3 6s ease-out;
 	background-color: #7f8c8d;
@@ -527,12 +532,16 @@ footer .widget_md_widget_recent_posts li img{
 
 .skill4 {
 	width:87%;
+	animation:skill4 6s ease-out;
+	-o-animation:skill4 6s ease-out;
 	-moz-animation:skill4 6s ease-out;
 	-webkit-animation:skill4 6s ease-out;
 	background-color: #2980b9;
 }
 .skill5 {
 	width:87%;
+	animation:skill5 6s ease-out;
+	-o-animation:skill5 6s ease-out;
 	-moz-animation:skill5 6s ease-out;
 	-webkit-animation:skill5 6s ease-out;
 	background-color: #34495E;
@@ -540,16 +549,36 @@ footer .widget_md_widget_recent_posts li img{
 
 .skill6 {
 	width:82%;
+	animation:skill6 6s ease-out;
+	-o-animation:skill6 6s ease-out;
 	-moz-animation:skill6 6s ease-out;
 	-webkit-animation:skill6 6s ease-out;
 	background-color: #2C3E50;
 }
 .skill7 {
 	width:93%;
+	animation:skill7 6s ease-out;
+	-o-animation:skill7 6s ease-out;
 	-moz-animation:skill7 6s ease-out;
 	-webkit-animation:skill7 6s ease-out;
 	background-color: #1E824C;
 }
+
+@keyframes skill1 {0%  { width:0px;} 100%{ width:98%;}  }
+@keyframes skill2   { 0%  { width:0px;} 100%{ width:90%;}  }
+@keyframes skill3   { 0%  { width:0px;} 100%{ width:94%;}  }
+@keyframes skill4   { 0%  { width:0px;} 100%{ width:87%;}  }
+@keyframes skill5   { 0%  { width:0px;} 100%{ width:87%;}  }
+@keyframes skill6   { 0%  { width:0px;} 100%{ width:82%;}  }
+@keyframes skill7        { 0%  { width:0px;} 100%{ width:93%;}  }
+
+@-o-keyframes skill1 {0%  { width:0px;} 100%{ width:98%;}  }
+@-o-keyframes skill2   { 0%  { width:0px;} 100%{ width:90%;}  }
+@-o-keyframes skill3   { 0%  { width:0px;} 100%{ width:94%;}  }
+@-o-keyframes skill4   { 0%  { width:0px;} 100%{ width:87%;}  }
+@-o-keyframes skill5   { 0%  { width:0px;} 100%{ width:87%;}  }
+@-o-keyframes skill6   { 0%  { width:0px;} 100%{ width:82%;}  }
+@-o-keyframes skill7        { 0%  { width:0px;} 100%{ width:93%;}  }
 
 @-moz-keyframes skill1 {0%  { width:0px;} 100%{ width:98%;}  }
 @-moz-keyframes skill2   { 0%  { width:0px;} 100%{ width:90%;}  }

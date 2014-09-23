@@ -55,7 +55,7 @@
 							<div class="container headblurb">								
 								<li>
 									<div class="gravatar">
-										<a href="http://bnptr.sk"> <?php $admin_email = get_option('admin_email'); echo get_avatar( $admin_email, 100 ); ?></a>
+										<a href="http://bnptr.sk"> <?php $admin_email = get_option('admin_email'); echo get_avatar( $admin_email, 200 ); ?></a>
 									</div>
 								</li>
 								<li>

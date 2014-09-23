@@ -379,8 +379,8 @@ a:hover, a:focus, a:active {
 
 .headed .gravatar {
 	overflow: hidden;
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 200px;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	border-radius: 50%;
@@ -1052,4 +1052,8 @@ footer {
 
 .site-header {
 	height: 240px;
+}
+
+#primary {
+	margin-top: 80px;
 }

@@ -20,6 +20,7 @@
 <title>@62656e</title>
 
 <!-- Bootstrap core CSS -->
+
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <!-- Custom styles for this template -->
 <link href="index.css" rel="stylesheet">
@@ -151,8 +152,7 @@
 <script src="http://d3js.org/d3.v3.min.js"></script>
 </head>
 
-<body>
-
+<body>	
 	<div class="site-wrapper">
 
 		<div class="site-wrapper-inner">
