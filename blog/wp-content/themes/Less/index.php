@@ -86,7 +86,7 @@
 
 
 
-					<div class="container">
+					<div class="container slideDown">
 						<div class="mastfoot">
 							<div class="inner">
 								<a href="#" class="back-to-top">Back to Top</a>

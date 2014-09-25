@@ -848,6 +848,7 @@ footer {
 .masthead {
 	margin: auto;
 	text-align: center;
+	z-index: 1001;
 }
 
 #content {
@@ -1055,5 +1056,10 @@ footer {
 }
 
 #primary {
-	margin-top: 80px;
+	margin-top: 40px;
+}
+
+.slideDown {
+	height: 0px;
+	margin-top: 50px;
 }
