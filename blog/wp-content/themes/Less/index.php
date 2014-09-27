@@ -307,7 +307,7 @@
 
 				<form id="contactForm">
 					<div class="modal-body">
-						<div class="container">
+						<div class="container input-forms">
 							<div class="col-lg-12 contact-form">
 								<div class="row">
 									<div class="form-group">
