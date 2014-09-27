@@ -1039,3 +1039,7 @@ footer {
 	font-size: 18px;
 	font-family: sans-serif;
 }
+
+.site-title-blog:hover{
+	font-style: italic;
+}
