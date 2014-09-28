@@ -301,8 +301,7 @@
 			<div class="modal-content">
 
 				<div class="modal-header">
-					<h4 class="modal-title" id="myModalLabel">Job offers,
-						comments, or questions? Email me!</h4>
+					<h4 class="modal-title" id="myModalLabel">Job offers, comments, or questions? Email me!</h4>
 				</div>
 
 				<form id="contactForm">

@@ -198,60 +198,7 @@
 	    ================================================== -->
 		<!-- Wrap the rest of the page in another container to center all the content. -->
 
-		<div class="container marketing">
 
-			<!-- Three columns of text below the carousel -->
-			<div class="row textColumns">
-				<div class="col-lg-4">
-					<img class="img-circle"
-						src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-						alt="Generic placeholder image"
-						style="width: 140px; height: 140px;">
-					<h2>I know a bit about a byte of things.</h2>
-					<p>Like a lot of things. And if I don't, then I'm probably
-						trying to learn it or it's on my to do list. (Which is pretty
-						long...)</p>
-					<p>
-						<a class="btn btn-default" href="#" role="button">View details
-							&raquo;</a>
-					</p>
-				</div>
-				<!-- /.col-lg-4 -->
-				<div class="col-lg-4">
-					<img class="img-circle"
-						src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-						alt="Generic placeholder image"
-						style="width: 140px; height: 140px;">
-					<h2>Heading</h2>
-					<p>Duis mollis, est non commodo luctus, nisi erat porttitor
-						ligula, eget lacinia odio sem nec elit. Cras mattis consectetur
-						purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo,
-						tortor mauris condimentum nibh.</p>
-					<p>
-						<a class="btn btn-default" href="#" role="button">View details
-							&raquo;</a>
-					</p>
-				</div>
-				<!-- /.col-lg-4 -->
-				<div class="col-lg-4">
-					<img class="img-circle"
-						src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-						alt="Generic placeholder image"
-						style="width: 140px; height: 140px;">
-					<h2>Heading</h2>
-					<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis
-						in, egestas eget quam. Vestibulum id ligula porta felis euismod
-						semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris
-						condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-					<p>
-						<a class="btn btn-default" href="#" role="button">View details
-							&raquo;</a>
-					</p>
-				</div>
-				<!-- /.col-lg-4 -->
-			</div>
-			<!-- /.row -->
-		</div>
 
 		<!-- Carousel
 	    ================================================== -->
@@ -269,14 +216,9 @@
 						alt="First slide">
 					<div class="container">
 						<div class="carousel-caption">
-							<h1>Example headline.</h1>
-							<p>
-								Note: If you're viewing this page via a
-								<code>file://</code>
-								URL, the "next" and "previous" Glyphicon buttons on the left and
-								right might not load/display properly due to web browser
-								security rules.
-							</p>
+							<h1>I know a bit about a byte of things.</h1>
+							<p>Like a lot. And if I don't, then it's either on my to do list (which is pretty
+							long) or I'm already trying to learn it.</p>
 							<p>
 								<a class="btn btn-lg btn-primary" href="#" role="button">Sign
 									up today</a>
@@ -344,7 +286,9 @@
 				</div>
 				<div class="col-md-5">
 					<img class="featurette-image img-responsive"
-						src="http://placehold.it/400x400" alt="Generic placeholder image">
+						src="/images/oregonCoast.jpg"
+						alt="Generic placeholder image"
+						style="width:544px; height:408px;">
 				</div>
 			</div>
 
@@ -352,7 +296,9 @@
 			<div class="row featurette" id="featuretteB">
 				<div class="col-md-5">
 					<img class="featurette-image img-responsive"
-						src="http://placehold.it/400x400" alt="Generic placeholder image">
+						src="/images/napaValley.jpg" 
+						alt="Generic placeholder image"
+						style="width:544px; height:408px;">
 				</div>
 				<div class="col-md-7">
 					<h2 class="featurette-heading">

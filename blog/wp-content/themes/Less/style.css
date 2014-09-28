@@ -847,6 +847,10 @@ footer {
 
 @media ( min-width : 768px) {
 	/* Navbar positioning foo */
+	.modal-title {
+		margin: auto;
+		width: 380px;
+	}
 	.navbar-wrapper {
 		margin-top: 20px;
 	}
