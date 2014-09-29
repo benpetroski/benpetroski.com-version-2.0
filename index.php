@@ -220,8 +220,7 @@
 							<p>Like a lot. And if I don't, then it's either on my to do list (which is pretty
 							long) or I'm already trying to learn it.</p>
 							<p>
-								<a class="btn btn-lg btn-primary" href="#" role="button">Sign
-									up today</a>
+								<a class="btn btn-lg btn-primary" href="http://benpetroski.com/blog/?page_id=2" role="button">See what I've done</a>
 							</p>
 						</div>
 					</div>
