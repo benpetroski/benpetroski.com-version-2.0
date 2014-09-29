@@ -245,7 +245,7 @@
 					<div class="container">
 						<div class="carousel-caption">
 							<h1>If you would like to know more, contact me.</h1>
-							<p>Best way to get in touch is by email. I check my inbox way too often which is possibly a good thing. At least I am not entirely procrastinating.</p>
+							<p>Best way to get in touch is by email. I check my inbox way too often, which is possibly a good thing. At least I am not entirely procrastinating.</p>
 							<p>
 								<a class="btn btn-lg btn-primary" href="" data-toggle="modal"
 								data-target="#contactModal" role="button">Send me a message</a>
