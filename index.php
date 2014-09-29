@@ -202,7 +202,7 @@
 
 		<!-- Carousel
 	    ================================================== -->
-		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="8000" data-pause="none">
 			<!-- Indicators -->
 			<ol class="carousel-indicators">
 				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -210,51 +210,45 @@
 				<li data-target="#myCarousel" data-slide-to="2"></li>
 			</ol>
 			<div class="carousel-inner">
-				<div class="item active">
+			<div class="item active">
 					<img
-						src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+						src="data:image/gif;base64,R0lGODlhAQABAIAAAGZmZgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
 						alt="First slide">
 					<div class="container">
 						<div class="carousel-caption">
-							<h1>I know a bit about a byte of things.</h1>
-							<p>Like a lot. And if I don't, then it's either on my to do list (which is pretty
-							long) or I'm already trying to learn it.</p>
-							<p>
-								<a class="btn btn-lg btn-primary" href="http://benpetroski.com/blog/?page_id=2" role="button">See what I've done</a>
+							<h1>I am currently fiddling with hardware.</h1>
+							<p>I have done a lot of software projects and test-based internships in the past, but my current focus is on exploring design principles.</p> 
+							<p>	<a class="btn btn-lg btn-primary" href="http://benpetroski.com/blog/" role="button">Check out my blog for recent projects</a>
 							</p>
 						</div>
 					</div>
 				</div>
 				<div class="item">
 					<img
-						src="data:image/gif;base64,R0lGODlhAQABAIAAAGZmZgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+						src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
 						alt="Second slide">
 					<div class="container">
 						<div class="carousel-caption">
-							<h1>Another example headline.</h1>
-							<p>Cras justo odio, dapibus ac facilisis in, egestas eget
-								quam. Donec id elit non mi porta gravida at eget metus. Nullam
-								id dolor id nibh ultricies vehicula ut id elit.</p>
+							<h1>I know a bit about a byte of things.</h1>
+							<p>Like at least several gigabytes. And if I don't, then it is either on my to do list (which is pretty
+							long) or I am already trying to learn it.</p>
 							<p>
-								<a class="btn btn-lg btn-primary" href="#" role="button">Learn
-									more</a>
+								<a class="btn btn-lg btn-primary" href="http://benpetroski.com/blog/?page_id=2" role="button">See some things I have done</a>
 							</p>
 						</div>
 					</div>
-				</div>
+				</div>				
 				<div class="item">
 					<img
 						src="data:image/gif;base64,R0lGODlhAQABAIAAAFVVVQAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
 						alt="Third slide">
 					<div class="container">
 						<div class="carousel-caption">
-							<h1>One more for good measure.</h1>
-							<p>Cras justo odio, dapibus ac facilisis in, egestas eget
-								quam. Donec id elit non mi porta gravida at eget metus. Nullam
-								id dolor id nibh ultricies vehicula ut id elit.</p>
+							<h1>If you would like to know more, contact me.</h1>
+							<p>Best way to get in touch is by email. I check my inbox way too often which is possibly a good thing. At least I am not entirely procrastinating.</p>
 							<p>
-								<a class="btn btn-lg btn-primary" href="#" role="button">Browse
-									gallery</a>
+								<a class="btn btn-lg btn-primary" href="" data-toggle="modal"
+								data-target="#contactModal" role="button">Send me a message</a>
 							</p>
 						</div>
 					</div>

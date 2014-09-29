@@ -35,11 +35,11 @@
 					<div class="masthead navbar clearfix">
 						<div class="inner">
 							<h3 class="masthead-brand">
-								<a href="#">BenPetroski.com</a>
+								<a href="http://benpetroski.com">BenPetroski.com</a>
 							</h3>
 							<ul class="nav masthead-nav navbar2">
 								<li><a href="http://benpetroski.com">About</a></li>
-								<li class="active"><a href="#">Blog</a></li>
+								<li class="active"><a href="http://benpetroski.com/blog/">Blog</a></li>
 								<li><a href="" data-toggle="modal"
 									data-target="#contactModal">Contact</a></li>
 							</ul>
