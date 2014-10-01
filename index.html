@@ -309,12 +309,12 @@
 			<div class="row featurette" id="featuretteC">
 				<div class="col-md-7">
 					<h2 class="featurette-heading">
-						I hack like it's my job. <span class="text-muted">Unfortunately, it's not [yet].</span>
+						I hack like it's my job. <br/><span class="text-muted">Unfortunately, it's not [yet].</span>
 					</h2>
 					<p class="lead">I have learned a lot over the past
 					several years, both inside and outside the classroom. 
-					The culmination of which has taught me that there's 
-					always more to learn, which I'm cool with; I like learning.
+					The culmination of which has taught me that there is 
+					always more to learn, but I'm cool with that; I like learning.
 					Here is my <a href="http://bnptr.sk/1rFrwBB"><strong>resume</strong></a>.</p>
 				</div>
 				<div class="col-md-5">
