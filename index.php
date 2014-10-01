@@ -309,12 +309,13 @@
 			<div class="row featurette" id="featuretteC">
 				<div class="col-md-7">
 					<h2 class="featurette-heading">
-						And lastly, this one. <span class="text-muted">Checkmate.</span>
+						I hack like it's my job. <span class="text-muted">Unfortunately, it's not [yet].</span>
 					</h2>
-					<p class="lead">Donec ullamcorper nulla non metus auctor
-						fringilla. Vestibulum id ligula porta felis euismod semper.
-						Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-						Fusce dapibus, tellus ac cursus commodo.</p>
+					<p class="lead">I have learned a lot over the past
+					several years, both inside and outside the classroom. 
+					The culmination of which has taught me that there's 
+					always more to learn, which I'm cool with; I like learning.
+					Here is my <a href="http://bnptr.sk/1rFrwBB"><strong>resume</strong></a>.</p>
 				</div>
 				<div class="col-md-5">
 					<div id="skills" class="featurette-image img-responsive">
