@@ -166,7 +166,7 @@
 						</h3>
 						<ul class="nav masthead-nav">
 							<li class="active"><a href="index.html">About</a></li>
-							<li><a href="..\blog\">Blog</a></li>
+							<li><a href="../blog/">Blog</a></li>
 							<li><a href="" data-toggle="modal"
 								data-target="#contactModal">Contact</a></li>
 						</ul>
@@ -218,7 +218,7 @@
 						<div class="carousel-caption">
 							<h1>I am currently fiddling with hardware.</h1>
 							<p>I have done a lot of software projects and test-based internships in the past, but my current focus is on exploring design principles.</p> 
-							<p>	<a class="btn btn-lg btn-primary" href="http://benpetroski.com/blog/" role="button">Check out my blog for recent projects</a>
+							<p>	<a class="btn btn-lg btn-primary" href="http://benpetroski.com/blog/" role="button">Check out my blog</a>
 							</p>
 						</div>
 					</div>
@@ -244,7 +244,7 @@
 						alt="Third slide">
 					<div class="container">
 						<div class="carousel-caption">
-							<h1>If you would like to know more, contact me.</h1>
+							<h1>Want to know more? Contact me!</h1>
 							<p>Best way to get in touch is by email. I check my inbox way too often, which is possibly a good thing. At least I am not entirely procrastinating.</p>
 							<p>
 								<a class="btn btn-lg btn-primary" href="" data-toggle="modal"
