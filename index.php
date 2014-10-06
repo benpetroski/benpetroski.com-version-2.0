@@ -210,10 +210,7 @@
 				<li data-target="#myCarousel" data-slide-to="2"></li>
 			</ol>
 			<div class="carousel-inner">
-			<div class="item active">
-					<img
-						src="data:image/gif;base64,R0lGODlhAQABAIAAAGZmZgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-						alt="First slide">
+			<div class="item active carouselSlide1">
 					<div class="container">
 						<div class="carousel-caption">
 							<h1>I am currently fiddling with hardware.</h1>
@@ -223,10 +220,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="item">
-					<img
-						src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-						alt="Second slide">
+				<div class="item carouselSlide2">
 					<div class="container">
 						<div class="carousel-caption">
 							<h1>I know a bit about a byte of things.</h1>
@@ -238,10 +232,7 @@
 						</div>
 					</div>
 				</div>				
-				<div class="item">
-					<img
-						src="data:image/gif;base64,R0lGODlhAQABAIAAAFVVVQAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-						alt="Third slide">
+				<div class="item carouselSlide3">
 					<div class="container">
 						<div class="carousel-caption">
 							<h1>Want to know more? Contact me!</h1>
@@ -456,7 +447,7 @@
 						<div class="col-lg-12 contact-form">
 							<div class="row">
 								<div class="form-group">
-									<a class="btn btn-primary" href="#">Button 1</a> <a
+									<a class="btn btn-primary" href="https://www.google.com/calendar/">Calendar</a> <a
 										class="btn btn-primary" href="#">Button 2</a> <a
 										class="btn btn-primary" href="#">Button 3</a>
 								</div>
