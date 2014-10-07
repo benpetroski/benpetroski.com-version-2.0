@@ -260,13 +260,9 @@
 			<div class="row featurette" id="featuretteA">
 				<div class="col-md-7">
 					<h2 class="featurette-heading">
-						First featurette heading. <span class="text-muted">It'll
-							blow your mind.</span>
+						I used to like chess. <span class="text-muted">Now I hate it.</span>
 					</h2>
-					<p class="lead">Donec ullamcorper nulla non metus auctor
-						fringilla. Vestibulum id ligula porta felis euismod semper.
-						Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-						Fusce dapibus, tellus ac cursus commodo.</p>
+					<p class="lead">It's a great game - requires logical analysis, creativity, and a whole slew of other things. But I can't stand losing, and in chess, there are some positions you just can't escape. In the real world, there are many more factors that come into play. With that same creativity and a little perseverance, you <strong><em>can</em></strong> make a comeback.</p>
 				</div>
 				<div class="col-md-5">
 					<img class="featurette-image img-responsive"
