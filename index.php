@@ -162,10 +162,10 @@
 				<div class="masthead navbar clearfix">
 					<div class="inner">
 						<h3 class="masthead-brand">
-							<a href="#">BenPetroski.com</a>
+							<a href="">BenPetroski.com</a>
 						</h3>
 						<ul class="nav masthead-nav">
-							<li class="active"><a href="index.html">About</a></li>
+							<li class="active"><a href="">About</a></li>
 							<li><a href="../blog/">Blog</a></li>
 							<li><a href="" data-toggle="modal"
 								data-target="#contactModal">Contact</a></li>
@@ -213,7 +213,7 @@
 			<div class="item active carouselSlide1">
 					<div class="container">
 						<div class="carousel-caption">
-							<h1>I am currently fiddling with hardware.</h1>
+							<h1>Probably fiddling with hardware...</h1>
 							<p>I have done a lot of software projects and test-based internships in the past, but my current focus is on exploring design principles.</p> 
 							<p>	<a class="btn btn-lg btn-primary" href="http://benpetroski.com/blog/" role="button">Check out my blog</a>
 							</p>
