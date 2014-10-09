@@ -266,7 +266,7 @@
 				</div>
 				<div class="col-md-5">
 					<img class="featurette-image img-responsive"
-						src="/images/oregonCoast.jpg"
+						src="/images/oregonCoastV2.jpg"
 						alt="Generic placeholder image"
 						style="width:544px; height:408px;">
 				</div>
@@ -276,7 +276,7 @@
 			<div class="row featurette" id="featuretteB">
 				<div class="col-md-5">
 					<img class="featurette-image img-responsive"
-						src="/images/napaValley.jpg" 
+						src="/images/napaValleyV2.jpg" 
 						alt="Generic placeholder image"
 						style="width:544px; height:408px;">
 				</div>
