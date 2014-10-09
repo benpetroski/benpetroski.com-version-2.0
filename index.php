@@ -262,7 +262,7 @@
 					<h2 class="featurette-heading">
 						I used to like chess. <span class="text-muted">Now I hate it.</span>
 					</h2>
-					<p class="lead">It's a great game - requires logical analysis, creativity, and a whole slew of other things. But I can't stand losing, and in chess, there are some positions you just can't escape. In the real world, there are many more factors that come into play. With that same creativity and a little perseverance, you <strong><em>can</em></strong> make a comeback.</p>
+					<p class="lead">It's a great game composed of logical analysis, creativity, and a whole slew of other things. But I can't stand losing, and in chess, there are some positions you just can't escape. In the real world, there are many more factors that come into play. With that same creativity and a little perseverance, I believe you <strong><em>can</em></strong> make a comeback.</p>
 				</div>
 				<div class="col-md-5">
 					<img class="featurette-image img-responsive"
@@ -282,13 +282,9 @@
 				</div>
 				<div class="col-md-7">
 					<h2 class="featurette-heading">
-						Oh yeah, it's that good. <span class="text-muted">See for
-							yourself.</span>
+						I don't believe in ceilings. <span class="text-muted">Only rooftops.</span>
 					</h2>
-					<p class="lead">Donec ullamcorper nulla non metus auctor
-						fringilla. Vestibulum id ligula porta felis euismod semper.
-						Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-						Fusce dapibus, tellus ac cursus commodo.</p>
+					<p class="lead">Shooting for the stars isn't easy. You <strong><em>probably</em></strong> won't just fall off the Earth and end up among them. To reach that pinnacle, there are many steps to take along the way. I'd like to think I'm on top of some skyscraper right about now, making my way ever closer toward success.</p>
 				</div>
 			</div>
 
