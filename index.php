@@ -260,7 +260,7 @@
 			<div class="row featurette" id="featuretteA">
 				<div class="col-md-7">
 					<h2 class="featurette-heading">
-						I used to like chess. <span class="text-muted">Now I hate it.</span>
+						I used to like chess. <span class="text-gray">Now I hate it.</span>
 					</h2>
 					<p class="lead">It's a great game composed of logical analysis, creativity, and a whole slew of other things. But I can't stand losing, and in chess, there are some positions you just can't escape. In the real world, there are many more factors that come into play. With that same creativity and a little perseverance, I believe you <strong><em>can</em></strong> make a comeback.</p>
 				</div>
@@ -282,7 +282,7 @@
 				</div>
 				<div class="col-md-7">
 					<h2 class="featurette-heading">
-						I don't believe in ceilings. <span class="text-muted">Only rooftops.</span>
+						I don't believe in ceilings. <span class="text-gray">Only rooftops.</span>
 					</h2>
 					<p class="lead">Shooting for the stars isn't easy. You <strong><em>probably</em></strong> won't just fall off the Earth and end up among them. To reach that pinnacle, there are many steps to take along the way. I'd like to think I'm on top of some skyscraper right about now, making my way ever closer toward success.</p>
 				</div>
@@ -292,7 +292,7 @@
 			<div class="row featurette" id="featuretteC">
 				<div class="col-md-7">
 					<h2 class="featurette-heading">
-						I hack like it's my job. <br/><span class="text-muted">Unfortunately, it's not [yet].</span>
+						I hack like it's my job. <br/><span class="text-gray">Unfortunately, it's not [yet].</span>
 					</h2>
 					<p class="lead">I have learned a lot over the past
 					several years, both inside and outside the classroom. 
