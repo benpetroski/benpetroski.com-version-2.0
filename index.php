@@ -214,7 +214,7 @@
 					<div class="container">
 						<div class="carousel-caption">
 							<h1>Probably fiddling with hardware...</h1>
-							<p>I have done a lot of software projects and test-based internships in the past, but my current focus is on exploring design principles.</p> 
+							<p>I have done a lot of software projects and test-based internships in the past, but my current focus is on exploring hardware design principles.</p> 
 							<p>	<a class="btn btn-lg btn-primary" href="http://benpetroski.com/blog/" role="button">Check out my blog</a>
 							</p>
 						</div>
@@ -298,7 +298,7 @@
 					several years, both inside and outside the classroom. 
 					The culmination of which has taught me that there is 
 					always more to learn, but I'm cool with that; I like learning.
-					Here is my <a href="http://bnptr.sk/1rFrwBB"><strong>resume</strong></a>.</p>
+					Here is my <a href="http://bnptr.sk/1uDxNeF"><strong>resume</strong></a>.</p>
 				</div>
 				<div class="col-md-5">
 					<div id="skills" class="featurette-image img-responsive">
