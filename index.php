@@ -298,7 +298,7 @@
 					several years, both inside and outside the classroom. 
 					The culmination of which has taught me that there is 
 					always more to learn, but I'm cool with that; I like learning.
-					Here is my <a href="http://bnptr.sk/1uDxNeF"><strong>resume</strong></a>.</p>
+					Here is my <a href="http://bnptr.sk/1wnMq8l"><strong>resume</strong></a>.</p>
 				</div>
 				<div class="col-md-5">
 					<div id="skills" class="featurette-image img-responsive">
